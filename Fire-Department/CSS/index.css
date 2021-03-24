@@ -15,7 +15,8 @@ body {
   }
 
   .imgLogo{
-    width:200px;
+    margin-top: 40px;
+    margin-left: 120px;
   }
   
   .logo {
@@ -134,14 +135,10 @@ body {
           }
           
           .button {
-              
-               
               font-family: 'Roboto Condensed', sans-serif;
               font-weight: normal;
               font-size: 12px;
               margin-top: 40px;
-              
-               
           }
           .btn1:hover{
               text-decoration: none;
