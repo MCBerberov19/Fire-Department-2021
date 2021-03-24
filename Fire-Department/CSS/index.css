@@ -56,6 +56,9 @@ body {
     font-weight: 300;
     color: hsl(0,0%,70%);
   }
+  a:hover{
+    padding: 15px 15px;
+  }
   
   .navigation-menu {
     content: '';
@@ -67,6 +70,7 @@ body {
     background-image: url(../IMG/fireNavBar.gif);
     background-position:center;
     background-size: cover;
+    filter: grayscale(30%);
     
     height: 100%;
     transform: skewX(0deg) translate(100%,0);
@@ -141,11 +145,13 @@ body {
               margin-top: 40px;
           }
           .btn1:hover{
+            padding: 12px 25px;
               text-decoration: none;
               background: #f20c4a;
               color: white;
           }
           .btn2:hover{
+            padding: 12px 25px;
               text-decoration: none;
               background: #fcfcfc;
               color: rgb(0, 0, 0);
