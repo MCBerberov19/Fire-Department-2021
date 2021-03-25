@@ -2,7 +2,6 @@ body {
     background-image: url(../IMG/indexBackGround.jpg);
     background-size: cover;
     font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
     height: 100px;
 }
 
@@ -213,25 +212,74 @@ span {
     bottom: 0;
     width: 100%;
     padding-top: 10px;
-    color:rgb(255, 255, 255);
+    color: rgb(14, 14, 14);
     padding-bottom: 0px;
-    background-color: rgb(37, 37, 42);
+    background-color: rgba(37, 37, 42, 0.637);
     z-index: -1;
-    
     align-items: center;
 }
-h4{
+
+h4 {
     float: left;
     padding-top: 8px;
-    
     cursor: pointer;
 }
-.footerimg{
+
+.footerimg {
     float: left;
     margin-left: 50px;
     padding-top: 14px;
     padding-right: 4px;
 }
-.imgopacity{
+
+.imgopacity {
     opacity: 0.75;
+}
+
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size: large;
+}
+
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: rgba(255, 255, 255, 0.61);
+    color: rgb(105, 105, 105);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.popup {
+    margin-left: 2px;
+}
+
+.popup .popuptext::after {
+    content: "";
+    font-family: sans-serif;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.popup .show {
+    visibility: visible;
 }
