@@ -283,3 +283,7 @@ h4 {
 .popup .show {
     visibility: visible;
 }
+
+.phonelogo {
+    margin-left: 550px;
+}
