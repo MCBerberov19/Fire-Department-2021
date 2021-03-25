@@ -2,15 +2,12 @@ body {
     background-image: url(../IMG/indexBackGround.jpg);
     background-size: cover;
     font-family: 'Montserrat', sans-serif;
-    height: 100px;
 }
 
 .container {
     width: 80%;
-    height: 40px;
     position: relative;
     top: 40px;
-    margin: 0 auto;
 }
 
 .imgLogo {
@@ -282,8 +279,4 @@ h4 {
 
 .popup .show {
     visibility: visible;
-}
-
-.phonelogo {
-    margin-left: 550px;
 }
