@@ -1,0 +1,68 @@
+body {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 69%, rgba(252, 176, 69, 1) 100%);
+}
+
+.formBox {
+    width: 25%;
+    height: 50%;
+    left: 50%;
+    top: 45%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 12%;
+    border-color: #378fcacc;
+}
+
+.inner_Box {
+    margin-top: 6%;
+}
+
+.header1 {
+    margin-top: 15%;
+    color: rgba(255, 255, 255, 0.918);
+}
+
+.formBox input[type="text"],
+.formBox input[type="password"] {
+    background: none;
+    margin: 5% auto;
+    text-align: center;
+    border: 2px solid black;
+    padding: 14px 10px;
+    color: white;
+    width: 200px;
+    height: 25px;
+    outline: none;
+    border-radius: 24px;
+    border-color: #dad732cc;
+    transition: 0.30s;
+}
+
+.formBox input[type="text"]:focus,
+.formBox input[type="password"]:focus {
+    border-color: #1bbe31cc;
+}
+
+.formBox input[type="submit"] {
+    background: none;
+    margin: 6% auto;
+    text-align: center;
+    border: 2px solid black;
+    padding: 30px 8px;
+    color: white;
+    width: 200px;
+    height: 75px;
+    outline: none;
+    border-radius: 24px;
+    border-color: #1bbe31cc;
+    cursor: pointer;
+}
+
+.formBox input[type="submit"]:hover {
+    background-color: #1bbe31cc;
+    transition: 0.50s;
+}

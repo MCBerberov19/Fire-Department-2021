@@ -1,12 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>IGNITY</title>
-    <link rel="stylesheet" type="text/css" href="CSS/index.css">
-    <link rel="stylesheet" type="text/css" href="CSS/navbar.css">
-    <link rel="stylesheet" type="text/css" href="CSS/footer.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/login.css">
+    <script scr="JavaScript/login.js"></script>
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
@@ -14,37 +10,37 @@
 
 <body>
 
-    <div class="container">
-
-        <div class="logo">
-            <a href="index.html"><img class="imgLogo" src="IMG/ignitylogo.png"></a>
-        </div>
-        </a>
-
-        <div class="navigation-wrapper">
-            <div class="navigation-button">
-                <i class="fa fa-bars"></i>
-            </div>
-            <div class="navigation-menu">
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="HTML/about.html">ABOUT US</a></li>
-                    <li><a href="HTML/teams.html">TEAMS</a></li>
-                    <li><a href="HTML/vehicles.html">VEHICLES</a></li>
-                    <li><a href="HTML/map.html">MAP</a></li>
-                    <li><a href="HTML/signal.html">GIVE A SIGNAL</a></li>
-                </ul>
-            </div>
-        </div>
-
-        <section class="hero">
-            <h1>Your safety is <br> <span>OUR CONCERN</span></h1>
-            <div class="button">
-                <a href="HTML/signal.html" class="btn1">Give a Signal</a>
-                <a href="HTML/about.html" class="btn2">About us</a>
-            </div>
-        </section>
+    <div class="logo">
+        <a href="index.html"><img class="imgLogo" src="IMG/ignitylogo.png"></a>
     </div>
+    </a>
+
+    <div class="navigation-wrapper">
+        <div class="navigation-button">
+            <i class="fa fa-bars"></i>
+        </div>
+        <div class="navigation-menu">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="HTML/about.html">ABOUT US</a></li>
+                <li><a href="HTML/teams.html">TEAMS</a></li>
+                <li><a href="HTML/vehicles.html">VEHICLES</a></li>
+                <li><a href="HTML/map.html">MAP</a></li>
+                <li><a href="HTML/signal.html">GIVE A SIGNAL</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <form class="formBox" action="/Fire-Department/index.html" method="post">
+
+        <h1 class="header1">Login</h1>
+        <div class="inner_Box">
+            <input type="text" name="name" placeholder="Username"><br>
+            <input type="password" name="password" placeholder="Password"><br>
+            <input type="submit" name="button" value="Login">
+        </div>
+    </form>
+
 
     <div class="footer">
 
@@ -79,11 +75,7 @@
             </div>
         </footer>
 
-
+        <script src="JavaScript/navbar.js">
+        </script>
 
 </body>
-
-<script src="JavaScript/navbar.js">
-</script>
-
-</html>

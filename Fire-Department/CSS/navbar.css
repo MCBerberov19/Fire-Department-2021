@@ -1,0 +1,135 @@
+.imgLogo {
+    position: static;
+    display: inline-block;
+    margin-left: -100px;
+    padding-top: -19px;
+    width: 150px;
+    z-index: -1;
+}
+
+.navigation-wrapper {
+    position: relative;
+}
+
+.navigation-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 45px;
+    right: 100px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.navigation-button .fa {
+    border: 2px solid rgb(214, 37, 6);
+    border-radius: 4px;
+    padding: 17px;
+    color: rgb(214, 37, 6);
+}
+
+.navigation-menu ul li {
+    list-style: none;
+    font-family: impact;
+    font-weight: 300;
+    color: hsl(0, 0%, 70%);
+}
+
+a:hover {
+    padding: 15px 15px;
+}
+
+.navigation-menu {
+    content: '';
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 30%;
+    background-color: white;
+    background-image: url(../IMG/fireNavBar.gif);
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(30%);
+    height: 100%;
+    transform: skewX(0deg) translate(100%, 0);
+    transform-origin: top right;
+    transition: all .2s ease-in;
+    cursor: pointer;
+}
+
+.navigation-menu ul {
+    position: fixed;
+    right: 120px;
+    top: 120px;
+    width: 400px;
+    margin-top: 100px;
+    margin-right: -170px;
+    cursor: pointer;
+}
+
+li:hover {
+    color: rgba(255, 255, 255, 0.678);
+}
+
+.navigation-menu ul li {
+    position: relative;
+    z-index: 999;
+    font-size: 32px;
+    color: hsl(0, 0%, 10%);
+    line-height: 64px;
+}
+
+.navigation-menu ul li a {
+    border: none;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navigation-menu.active {
+    transform: skewX(8deg) translate(0, 0);
+}
+
+.navigation-menu li {
+    opacity: 0;
+    transform: translate(0, 1px);
+    transition: all .0s ease-in .1s;
+}
+
+.navigation-menu.active li {
+    opacity: 1;
+    transform: translate(0, 0);
+    transition: all .0.5s ease-in 0s;
+}
+
+.navigation-menu.active li {
+    opacity: 1;
+    transform: translate(0, 0);
+    transition: all .2s ease-in 0s;
+}
+
+.navigation-menu.active li:nth-child(1) {
+    transition-delay: .3s;
+}
+
+.navigation-menu.active li:nth-child(2) {
+    transition-delay: .4s;
+}
+
+.navigation-menu.active li:nth-child(3) {
+    transition-delay: .5s;
+}
+
+.navigation-menu.active li:nth-child(4) {
+    transition-delay: .6s;
+}
+
+.navigation-menu.active li:nth-child(5) {
+    transition-delay: .7s;
+}
+
+.navigation-menu.active li:nth-child(6) {
+    transition-delay: .8s;
+}
