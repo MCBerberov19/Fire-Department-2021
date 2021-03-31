@@ -35,8 +35,8 @@ body {
     color: rgba(255, 255, 255, 0.918);
 }
 
-.formBox input[type="text"],
-.formBox input[type="password"] {
+.username,
+.password {
     background: none;
     margin: 5% auto;
     text-align: center;
@@ -51,12 +51,12 @@ body {
     transition: 0.30s;
 }
 
-.formBox input[type="text"]:focus,
-.formBox input[type="password"]:focus {
+.username:focus,
+.password:focus {
     border-color: #1bbe31cc;
 }
 
-.formBox input[type="submit"] {
+.submit {
     background: none;
     margin: 6% auto;
     text-align: center;
@@ -71,7 +71,7 @@ body {
     cursor: pointer;
 }
 
-.formBox input[type="submit"]:hover {
+.submit:hover {
     background-color: #1bbe31cc;
     transition: 0.50s;
 }

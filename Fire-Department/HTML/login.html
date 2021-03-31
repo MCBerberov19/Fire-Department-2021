@@ -12,7 +12,7 @@
 <body>
 
     <div class="logo">
-        <a href="index.html"><img class="imgLogo" src="../IMG/ignitylogo.png"></a>
+        <a href="../index.html"><img class="imgLogo" src="../IMG/ignitylogo.png"></a>
     </div>
     </a>
 
@@ -22,23 +22,25 @@
         </div>
         <div class="navigation-menu">
             <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="HTML/about.html">ABOUT US</a></li>
-                <li><a href="HTML/teams.html">TEAMS</a></li>
-                <li><a href="HTML/vehicles.html">VEHICLES</a></li>
-                <li><a href="HTML/map.html">MAP</a></li>
-                <li><a href="HTML/signal.html">GIVE A SIGNAL</a></li>
+                <li><a href="../index.html">HOME</a></li>
+                <li><a href="../HTML/about.html">ABOUT US</a></li>
+                <li><a href="../HTML/teams.html">TEAMS</a></li>
+                <li><a href="../HTML/vehicles.html">VEHICLES</a></li>
+                <li><a href="../HTML/map.html">MAP</a></li>
+                <li><a href="../HTML/signal.html">GIVE A SIGNAL</a></li>
+                <li><a href="../HTML/login.html">LOGIN</a></li>
             </ul>
         </div>
     </div>
 
-    <form class="formBox" action="/Fire-Department/index.html" method="post">
+    <form class="formBox">
 
-        <h1 class="header1">Login</h1>
+        <h1 class="header1">Log in</h1>
         <div class="inner_Box">
-            <input type="text" name="name" placeholder="Username"><br>
-            <input type="password" name="password" placeholder="Password"><br>
-            <input type="submit" name="button" value="Login">
+            <input type="text" name="name" placeholder="Username" class="username" id="user"><br>
+            <input type="password" name="password" placeholder="Password" class="password" id="pass"><br>
+            <button class="submit" onclick="check()">Log in</button>
+            <script src="../JavaScript/login.js"></script>
         </div>
     </form>
 
@@ -48,7 +50,7 @@
         <footer>
             <div class="inner_footer">
                 <div class="logo_container">
-                    <a href="index.html"><img src="../IMG/ignityLogo.png" width="180px" style="float: left;"></a>
+                    <a href="../index.html"><img src="../IMG/ignityLogo.png" width="180px" style="float: left;"></a>
 
                     <img src="../IMG/phoneLogo.png" width="28px" class="footerimg imgopacity" alt="phone">
                     <h4 onclick="openContact()"> Contact us </h4>

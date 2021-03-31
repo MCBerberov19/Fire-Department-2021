@@ -74,7 +74,7 @@ li:hover {
 
 .navigation-menu ul li a {
     border: none;
-    color: white;
+    color: rgb(104, 143, 202);
     text-decoration: none;
     cursor: pointer;
 }
@@ -123,4 +123,8 @@ li:hover {
 
 .navigation-menu.active li:nth-child(6) {
     transition-delay: .8s;
+}
+
+.navigation-menu.active li:nth-child(7) {
+    transition-delay: .9s;
 }
