@@ -1,12 +1,3 @@
-.imgLogo {
-    position: static;
-    display: inline-block;
-    margin-left: -100px;
-    padding-top: -19px;
-    width: 150px;
-    z-index: -1;
-}
-
 .navigation-wrapper {
     position: relative;
 }

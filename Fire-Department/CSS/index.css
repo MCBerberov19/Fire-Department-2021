@@ -11,6 +11,15 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.imgLogo {
+    position: static;
+    display: inline-block;
+    margin-left: -10%;
+    padding-top: 0%;
+    width: 150px;
+    z-index: -1;
+}
+
 .container {
     width: 80%;
     position: relative;

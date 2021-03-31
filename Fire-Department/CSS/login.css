@@ -3,6 +3,15 @@ body {
     background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 69%, rgba(252, 176, 69, 1) 100%);
 }
 
+.imgLogo {
+    position: static;
+    display: inline-block;
+    margin-left: 9%;
+    padding-top: 2%;
+    width: 150px;
+    z-index: -1;
+}
+
 .formBox {
     width: 25%;
     height: 50%;
@@ -32,7 +41,7 @@ body {
     margin: 5% auto;
     text-align: center;
     border: 2px solid black;
-    padding: 14px 10px;
+    padding: 25px 15px;
     color: white;
     width: 200px;
     height: 25px;
@@ -52,9 +61,9 @@ body {
     margin: 6% auto;
     text-align: center;
     border: 2px solid black;
-    padding: 30px 8px;
+    padding: 25px;
     color: white;
-    width: 200px;
+    width: 180px;
     height: 75px;
     outline: none;
     border-radius: 24px;
