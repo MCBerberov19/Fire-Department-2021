@@ -4,9 +4,8 @@ function check() {
         alert("Please fill the empty fields!");
 
     } else {
+        window.open("../index.html", "_self", "replace")
         alert("Welcome " + document.getElementById("user").value + " !");
-
-
     }
 }
 
@@ -19,6 +18,4 @@ function hideAndShow() {
         view.type = "password";
         document.getElementById("view").src = "../IMG/view.png";
     }
-
-
 }
