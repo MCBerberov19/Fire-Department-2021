@@ -1,12 +1,21 @@
 function check() {
 
+    let username = document.getElementById("user");
+    let password = document.getElementById("pass");
     if (document.getElementById("user").value == "" || document.getElementById("pass").value == "") {
         alert("Please fill the empty fields!");
+        if (username.value == "") {
+            username.style.borderColor = "#ff1a00";
+        }
 
+        if (password.value == "") {
+            password.style.borderColor = "#ff1a00";
+        }
     } else {
         window.open("../index.html", "_self", "replace")
-        alert("Welcome " + document.getElementById("user").value + " !");
+        alert("Welcome " + username.value + " !");
     }
+
 }
 
 function hideAndShow() {
