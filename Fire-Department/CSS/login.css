@@ -56,6 +56,15 @@ body {
     border-color: #1bbe31cc;
 }
 
+#view {
+    display: inline-block;
+    position: absolute;
+    width: 30px;
+    margin-top: 8%;
+    margin-left: -10%;
+    cursor: pointer;
+}
+
 .submit {
     background: none;
     margin: 6% auto;

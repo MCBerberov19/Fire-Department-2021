@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="../JavaScript/login.js"></script>
 </head>
 
 <body>
@@ -37,10 +38,13 @@
 
         <h1 class="header1">Log in</h1>
         <div class="inner_Box">
+
             <input type="text" name="name" placeholder="Username" class="username" id="user"><br>
-            <input type="password" name="password" placeholder="Password" class="password" id="pass"><br>
+            <input type="password" name="password" placeholder="Password" class="password" id="pass">
+            <img src="../IMG/view.png" onclick="hideAndShow()" id="view">
+            <br>
             <button class="submit" onclick="check()">Log in</button>
-            <script src="../JavaScript/login.js"></script>
+
         </div>
     </form>
 
@@ -78,7 +82,7 @@
             </div>
         </footer>
 
-        <script src="../JavaScript/navbar.js">
+        <script src="../JavaScript/navbar.js"></script>
         </script>
 
 </body>
