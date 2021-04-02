@@ -5,16 +5,21 @@ function check() {
 
     let username = document.getElementById("user");
     let password = document.getElementById("pass");
+
+    let text = "Fill the blank!";
     if (document.getElementById("user").value == "" || document.getElementById("pass").value == "") {
-        alert("Please fill the empty fields!");
         if (username.value == "") {
             username.style.borderColor = "#ff1a00";
             check1 = true;
+            document.getElementById("errorMessage1").style.color = "#ff1a00";
+            document.getElementById("errorMessage1").innerHTML = text;
         }
 
         if (password.value == "") {
             password.style.borderColor = "#ff1a00";
             check2 = true;
+            document.getElementById("errorMessage2").style.color = "#ff1a00";
+            document.getElementById("errorMessage2").innerHTML = text;
         }
     } else {
         window.open("../index.html", "_self", "replace")

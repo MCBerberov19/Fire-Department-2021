@@ -40,9 +40,11 @@
         <div class="inner_Box">
 
             <input type="text" name="name" placeholder="Username" class="username" id="user" onfocus="onFocus(this)" onblur="onBlurUser()"><br>
+            <span id="errorMessage1"></span>
             <input type="password" name="password" placeholder="Password" class="password" id="pass" onfocus="onFocus(this)" onblur="onBlurPass()">
-            <img src="../IMG/view.png" onclick="hideAndShow()" id="view">
-            <br>
+            <img src="../IMG/view.png" onclick="hideAndShow()" id="view"><br>
+            <span id="errorMessage2"></span>
+
             <button class="submit" type="button" onclick="check()">Log in</button>
 
         </div>
