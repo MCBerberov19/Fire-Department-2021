@@ -39,8 +39,8 @@
         <h1 class="header1">Log in</h1>
         <div class="inner_Box">
 
-            <input type="text" name="name" placeholder="Username" class="username" id="user"><br>
-            <input type="password" name="password" placeholder="Password" class="password" id="pass">
+            <input type="text" name="name" placeholder="Username" class="username" id="user" onfocus="onFocus(this)" onblur="onBlurUser()"><br>
+            <input type="password" name="password" placeholder="Password" class="password" id="pass" onfocus="onFocus(this)" onblur="onBlurPass()">
             <img src="../IMG/view.png" onclick="hideAndShow()" id="view">
             <br>
             <button class="submit" type="button" onclick="check()">Log in</button>

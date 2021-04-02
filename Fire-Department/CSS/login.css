@@ -51,11 +51,6 @@ body {
     transition: 0.30s;
 }
 
-.username:focus,
-.password:focus {
-    border-color: #1bbe31cc;
-}
-
 #view {
     display: inline-block;
     position: absolute;
