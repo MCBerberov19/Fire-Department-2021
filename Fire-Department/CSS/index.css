@@ -39,6 +39,12 @@ span {
     font-size: 65px;
     letter-spacing: 2px;
     font-family: impact;
+    bottom: 500s;
+}
+
+.bottom {
+    margin-top: 536px;
+    opacity: 0%;
 }
 
 .button {
