@@ -13,6 +13,10 @@ function check() {
             check1 = true;
             document.getElementById("errorMessage1").style.color = "#ff1a00";
             document.getElementById("errorMessage1").innerHTML = text;
+        } else {
+            username.style.borderColor = "rgba(0, 0, 0, 0.349)";
+            check1 = false;
+            document.getElementById("errorMessage1").innerHTML = "";
         }
 
         if (password.value == "") {
@@ -20,11 +24,17 @@ function check() {
             check2 = true;
             document.getElementById("errorMessage2").style.color = "#ff1a00";
             document.getElementById("errorMessage2").innerHTML = text;
+        } else {
+            password.style.borderColor = "rgba(0, 0, 0, 0.349)";
+            check2 = false;
+            document.getElementById("errorMessage2").innerHTML = "";
         }
     } else {
         window.open("../index.html", "_self", "replace")
         alert("Welcome " + username.value + " !");
     }
+
+
 
 }
 
@@ -35,17 +45,20 @@ function onFocus(thing) {
 function onBlurUser() {
     if (check1 == true) {
         return document.getElementById("user").style.borderColor = "#ff1a00";
+    } else {
+        document.getElementById("user").style.borderColor = "rgba(0, 0, 0, 0.349)";
     }
 
-    document.getElementById("user").style.borderColor = "#dad732cc";
+    document.getElementById("user").style.borderColor = "rgba(0, 0, 0, 0.349)";
 }
 
 function onBlurPass() {
     if (check2 == true) {
         return document.getElementById("pass").style.borderColor = "#ff1a00";
+    } else {
+        document.getElementById("pass").style.borderColor = "rgba(0, 0, 0, 0.349)";
     }
-
-    document.getElementById("pass").style.borderColor = "#dad732cc";
+    document.getElementById("pass").style.borderColor = "rgba(0, 0, 0, 0.349)";
 }
 
 function hideAndShow() {

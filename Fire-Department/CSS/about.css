@@ -7,7 +7,7 @@ body {
 }
 
 .about-section {
-    background: url(/IMG/aboutPageImage.gif) no-repeat left;
+    background: url(../IMG/aboutPageImage.gif) no-repeat left;
     background-size: 55%;
     background-color: #fdfdfd;
     overflow: hidden;

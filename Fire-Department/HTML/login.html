@@ -6,7 +6,6 @@
     <link rel="stylesheet" type="text/css" href="../CSS/footer.css">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script src="../JavaScript/login.js"></script>
 </head>
 <title>Log in</title>
@@ -37,7 +36,7 @@
 
     <form class="formBox">
 
-        <img src="/IMG/profilePictureLogo.png" width="100px" id="loginlogo">
+        <img src="../IMG/profilePictureLogo.png" width="100px" id="loginlogo">
         <div class="inner_Box">
 
             <input type="text" name="name" placeholder="Username" class="username" id="user" onfocus="onFocus(this)" onblur="onBlurUser()"><br>
@@ -45,8 +44,6 @@
             <input type="password" name="password" placeholder="Password" class="password" id="pass" onfocus="onFocus(this)" onblur="onBlurPass()">
             <img src="../IMG/view.png" onclick="hideAndShow()" id="view"><br>
             <span id="errorMessage2"></span>
-            <input type="checkbox" id="agreement" name="privacy" value="agreement">
-            <label for="privacy" id="privacy"> I agree with privacy policy</label><br>
             <button class="submit" type="button" onclick="check()">Log in</button>
 
         </div>

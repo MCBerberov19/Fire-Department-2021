@@ -1,7 +1,7 @@
 body {
     overflow: visible;
     height: 0px;
-    background-image: url(/IMG/blurBackground.jpg);
+    background-image: url(../IMG/blurBackground.jpg);
     background-position: 0px 0px;
     background-size: auto;
     background-size: cover;
@@ -78,7 +78,7 @@ body {
 
 .submit {
     background: none;
-    margin: 6% auto;
+    margin: 10% auto;
     text-align: center;
     font-weight: 110;
     border: none;
@@ -107,7 +107,7 @@ body {
     display: inline-block;
     position: absolute;
     margin-top: -4%;
-    margin-left: 27%;
+    margin-left: 30%;
     font-family: "Times New Roman", Times, serif;
     font-size: 15px;
 }
@@ -116,7 +116,7 @@ body {
     display: inline-block;
     position: absolute;
     margin-top: -4%;
-    margin-left: 25%;
+    margin-left: 30%;
     font-family: "Times New Roman", Times, serif;
     font-size: 15px;
 }
