@@ -1,6 +1,13 @@
 body {
-    background: rgb(131, 58, 180);
-    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 69%, rgba(252, 176, 69, 1) 100%);
+    overflow: visible;
+    height: 0px;
+    background-image: url(/IMG/blurBackground.jpg);
+    background-position: 0px 0px;
+    background-size: auto;
+    background-size: cover;
+    background-repeat: repeat-x;
+    -o-object-fit: fill;
+    object-fit: fill;
 }
 
 .imgLogo {
@@ -13,17 +20,16 @@ body {
 }
 
 .formBox {
-    width: 25%;
-    height: 50%;
+    width: 22%;
+    height: 470px;
     left: 50%;
     top: 45%;
     position: absolute;
     transform: translate(-50%, -50%);
     text-align: center;
-    border-style: solid;
-    border-width: 3px;
-    border-radius: 12%;
-    border-color: #378fcacc;
+    border-radius: 5%;
+    background-color: rgba(255, 255, 255, 0.048);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.63);
 }
 
 .inner_Box {
@@ -32,23 +38,27 @@ body {
 
 .header1 {
     margin-top: 15%;
-    color: rgba(255, 255, 255, 0.918);
+    color: rgba(255, 255, 255, 0.61);
+}
+
+::placeholder {
+    color: rgba(24, 24, 24, 0.575);
+    opacity: 1;
 }
 
 .username,
 .password {
     background: none;
     margin: 5% auto;
-    text-align: center;
-    border: 2px solid black;
-    padding: 25px 15px;
-    color: white;
+    padding: 25px 15px 20px 10px;
+    border-radius: 6px;
     width: 200px;
-    height: 25px;
+    height: 0px;
     outline: none;
-    border-radius: 24px;
-    border-color: #dad732cc;
     transition: 0.30s;
+    border-color: rgba(0, 0, 0, 0.548);
+    border-top: none;
+    border-right: none;
 }
 
 #view {
@@ -60,24 +70,37 @@ body {
     cursor: pointer;
 }
 
+#privacy {
+    font-weight: 120;
+    font-size: 13px;
+    opacity: 80%;
+}
+
 .submit {
     background: none;
     margin: 6% auto;
     text-align: center;
-    border: 2px solid black;
-    padding: 25px;
-    color: white;
-    width: 180px;
-    height: 75px;
+    font-weight: 110;
+    border: none;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.671);
+    width: 200px;
+    height: 45px;
     outline: none;
-    border-radius: 24px;
-    border-color: #1bbe31cc;
+    border-radius: 10px;
+    background-color: #2b2d26dc;
+    border-width: 3px;
     cursor: pointer;
 }
 
 .submit:hover {
-    background-color: #1bbe31cc;
-    transition: 0.50s;
+    background-color: #2b2d2698;
+    transition: 0.5s;
+}
+
+#loginlogo {
+    margin-top: 10%;
+    opacity: 55%;
 }
 
 #errorMessage1 {
