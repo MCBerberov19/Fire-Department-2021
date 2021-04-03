@@ -31,7 +31,7 @@ function check() {
         }
     } else {
         window.open("../index.html", "_self", "replace")
-        alert("Welcome " + username.value + " !");
+        alert(`Welcome ${username.value} !`);
     }
 
 
