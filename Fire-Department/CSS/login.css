@@ -28,17 +28,12 @@ body {
     transform: translate(-50%, -50%);
     text-align: center;
     border-radius: 5%;
-    background-color: rgba(187, 187, 187, 0.11);
+    background-color: rgba(124, 159, 187, 0.658);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.63);
 }
 
 .inner_Box {
     margin-top: 6%;
-}
-
-.header1 {
-    margin-top: 15%;
-    color: rgba(255, 255, 255, 0.61);
 }
 
 ::placeholder {
@@ -56,7 +51,7 @@ body {
     height: 0px;
     outline: none;
     transition: 0.30s;
-    border-color: rgba(0, 0, 0, 0.349);
+    border-color: rgba(0, 0, 0, 0.575);
     border-top: none;
     border-right: none;
 }

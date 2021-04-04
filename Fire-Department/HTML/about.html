@@ -6,30 +6,81 @@
     <link rel="stylesheet" type="text/css" href="../CSS/footer.css">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-    <script src="../JavaScript/footer.js"></script>
-    <script src="../JavaScript/navbar.js"></script>
+    <script src="../JavaScript/login.js"></script>
 </head>
 <title>Log in</title>
 
 <body>
 
 
-    <body>
-        <div class="about-section">
-            <div class="inner-container">
-                <h1>About Us</h1>
-                <p class="text">
-                    Na obidi, znaesh, nosya I na udari pod krasta, No che me ostavyash, me ubi. Iztarpyah, kakvoto mozheh, I na um za teb se moleh. Az ne moga, Bog da ti prosti! Zashto ne prasnesh sas ratse Tova sartse, Prokletoto, da spre? Tova litse, krasivoto, Ot bolka
-                    e sasipano. Prasni s ratse tova sartse! Ne e ot kamak - chupi se! Tova litse - vizh go dobre, Tova sam az i oshte te obicham! Ako mozhesh, spri me!
-                </p>
-                <div class="skills">
-                    <span>Scrum Trainer</span>
-                    <span>BackEnd & FrontEnd</span>
-                    <span>Designer</span>
-                </div>
+    </div>
+    <div class="navigation-wrapper">
+        <div class="navigation-button">
+            <i class="fa fa-bars"></i>
+        </div>
+        <div class="navigation-menu">
+            <ul>
+                <li><a href="../index.html">HOME</a></li>
+                <li><a href="../HTML/about.html">ABOUT US</a></li>
+                <li><a href="../HTML/teams.html">TEAMS</a></li>
+                <li><a href="../HTML/vehicles.html">VEHICLES</a></li>
+                <li><a href="../HTML/map.html">MAP</a></li>
+                <li><a href="../HTML/signal.html">GIVE A SIGNAL</a></li>
+                <li><a href="../HTML/login.html">LOGIN</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="about-section">
+        <div class="inner-container">
+            <h1>About Us</h1>
+            <p class="text">
+                Na obidi, znaesh, nosya I na udari pod krasta, No che me ostavyash, me ubi. Iztarpyah, kakvoto mozheh, I na um za teb se moleh. Az ne moga, Bog da ti prosti! Zashto ne prasnesh sas ratse Tova sartse, Prokletoto, da spre? Tova litse, krasivoto, Ot bolka
+                e sasipano. Prasni s ratse tova sartse! Ne e ot kamak - chupi se! Tova litse - vizh go dobre, Tova sam az i oshte te obicham! Ako mozhesh, spri me!
+            </p>
+            <div class="skills">
+                <span>Scrum Trainer</span>
+                <span>BackEnd & FrontEnd</span>
+                <span>Designer</span>
             </div>
         </div>
-    </body>
+    </div>
+
+
+    <div class="footer">
+
+        <footer>
+            <div class="inner_footer">
+                <div class="logo_container">
+                    <a href="../index.html"><img src="../IMG/ignityLogo.png" width="180px" style="float: left;"></a>
+
+                    <img src="../IMG/phoneLogo.png" width="28px" class="footerimg imgopacity" alt="phone">
+                    <h4 onclick="openContact()"> Contact us </h4>
+
+                    <img src="../IMG/githubLogo.png" width="28px" class="footerimg imgopacity" alt="github">
+                    <h4 onclick="openGithub()"> Github </h4>
+
+                    <img src="../IMG/placeLogo.png" width="22px" class="footerimg" alt="place">
+                    <h4 onclick="openPlace()"> Find us </h4>
+
+
+                    <img src="../IMG/outlookLogo.png" width="28px" class="footerimg imgopacity" alt="outlook">
+                    <h4 onclick="openOutlook()">
+                        Ignity@codingburgas.bg
+                    </h4>
+
+                    <img src="../IMG/profilePictureLogo.png" width="28px" class="footerimg imgopacity" alt="profile">
+                    <div class="popup footerimg" onclick="popUpTeam()">Team
+                        <span class="popuptext" id="myPopup">Veselin Stoyanov<br> Mario Berberov<br>Aleks Staykova<br> Georgi Vasilev</bt></span>
+                    </div>
+
+                    <script src="../JavaScript/footer.js"></script>
+                </div>
+
+            </div>
+        </footer>
+
+        <script src="../JavaScript/navbar.js"></script>
+        </script>
 
 </body>
