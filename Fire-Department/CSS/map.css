@@ -1,13 +1,22 @@
+html,
 body {
-    overflow: visible;
-    height: 0px;
-    background-position: 0px 0px;
-    background-size: auto;
-    background-size: cover;
-    background-repeat: repeat-x;
-    -o-object-fit: fill;
-    object-fit: fill;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
+    background-image: url(../IMG/mapBackground.jpg);
+}
+
+.container {
+    width: 900px;
+    height: 650px;
+    margin: 2% auto;
+    box-shadow: 0px 0px 10px #000000b2;
+    position: relative;
+    background-color: #ffffff71;
+    z-index: 0;
+}
+
+.map {
+    width: 45%;
+    float: left;
 }
 
 .imgLogo {
@@ -17,18 +26,4 @@ body {
     padding-top: 2%;
     width: 150px;
     z-index: -1;
-}
-
-#map {
-    border: solid black;
-    margin-top: 8%;
-    margin-left: 10%;
-    position: absolute;
-    height: 50%;
-    width: 30%;
-}
-
-.info {
-    margin-left: 60%;
-    margin-top: 15%;
 }

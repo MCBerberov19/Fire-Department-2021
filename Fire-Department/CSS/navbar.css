@@ -1,5 +1,6 @@
 .navigation-wrapper {
     position: relative;
+    z-index: 2;
 }
 
 .navigation-button {
