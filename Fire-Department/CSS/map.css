@@ -20,7 +20,15 @@ body {
 }
 
 #map {
+    border: solid black;
+    margin-top: 8%;
+    margin-left: 10%;
     position: absolute;
-    height: 2000px;
-    width: 500px;
+    height: 50%;
+    width: 30%;
+}
+
+.info {
+    margin-left: 60%;
+    margin-top: 15%;
 }
