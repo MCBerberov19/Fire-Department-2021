@@ -19,6 +19,49 @@ body {
     float: left;
 }
 
+#map {
+    position: relative;
+    height: 100%;
+    width: 45%;
+    float: left;
+}
+
+.contact-form {
+    width: 53%;
+    margin-left: 2%;
+    float: left;
+}
+
+.title {
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.subtitle {
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+input,
+textarea {
+    width: 350px;
+    padding: 3%;
+    margin: 2% 8%;
+    border: 1px solid blue;
+}
+
+.textf {
+    margin-top: 2%;
+}
+
+.btn-send {
+    width: 180px;
+    height: 60px;
+    font-weight: 700;
+    margin: 2% 8%;
+    border: none;
+}
+
 .imgLogo {
     position: static;
     display: inline-block;
