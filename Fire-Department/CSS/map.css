@@ -1,0 +1,26 @@
+body {
+    overflow: visible;
+    height: 0px;
+    background-position: 0px 0px;
+    background-size: auto;
+    background-size: cover;
+    background-repeat: repeat-x;
+    -o-object-fit: fill;
+    object-fit: fill;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.imgLogo {
+    position: static;
+    display: inline-block;
+    margin-left: 9%;
+    padding-top: 2%;
+    width: 150px;
+    z-index: -1;
+}
+
+#map {
+    position: absolute;
+    height: 2000px;
+    width: 500px;
+}
