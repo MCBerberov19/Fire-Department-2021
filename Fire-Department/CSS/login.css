@@ -73,7 +73,7 @@ body {
 
 .submit {
     background: none;
-    margin: 10% auto;
+    margin: 6% auto;
     text-align: center;
     font-weight: 110;
     border: none;
@@ -111,7 +111,11 @@ body {
     display: inline-block;
     position: absolute;
     margin-top: -4%;
-    margin-left: 30%;
+    margin-left: 3%;
     font-family: "Times New Roman", Times, serif;
     font-size: 15px;
+}
+
+.check {
+    margin-top: 5%;
 }

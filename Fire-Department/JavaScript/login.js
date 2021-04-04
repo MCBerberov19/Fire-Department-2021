@@ -7,7 +7,7 @@ function check() {
     let password = document.getElementById("pass");
 
     let text = "Fill the blank!";
-    if (document.getElementById("user").value == "" || document.getElementById("pass").value == "") {
+    if (document.getElementById("user").value == "" || document.getElementById("pass").value == "" || document.getElementById("agreement").checked == false) {
         if (username.value == "") {
             username.style.borderColor = "#ff1a00";
             check1 = true;
@@ -28,6 +28,12 @@ function check() {
             password.style.borderColor = "rgba(0, 0, 0, 0.349)";
             check2 = false;
             document.getElementById("errorMessage2").innerHTML = "";
+        }
+
+        if (document.getElementById("agreement").checked == false) {
+            document.getElementById("privacy").style.color = "#ff1a00";
+        } else {
+            document.getElementById("privacy").style.color = "rgba(24, 24, 24, 0.575)";
         }
     } else {
         window.open("../index.html", "_self", "replace")

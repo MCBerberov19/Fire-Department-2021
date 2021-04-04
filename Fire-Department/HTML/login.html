@@ -44,7 +44,11 @@
             <input type="password" name="password" placeholder="Password" class="password" id="pass" onfocus="onFocus(this)" onblur="onBlurPass()">
             <img src="../IMG/view.png" onclick="hideAndShow()" id="view"><br>
             <span id="errorMessage2"></span>
-            <button class="submit" type="button" onclick="check()">Log in</button>
+            <div class="check">
+                <input type="checkbox" id="agreement" name="privacy" value="agreement">
+                <label for="privacy" id="privacy"> I agree with privacy policy</label><br>
+                <button class="submit" type="button" onclick="check()">Log in</button>
+            </div>
 
         </div>
     </form>
