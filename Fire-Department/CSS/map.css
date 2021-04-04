@@ -5,8 +5,7 @@ body {
 }
 
 .container {
-    width: 900px;
-    height: 650px;
+    height: 550px;
     margin: 2% auto;
     box-shadow: 0px 0px 10px #000000b2;
     position: relative;
@@ -14,22 +13,31 @@ body {
     z-index: 0;
 }
 
-.map {
-    width: 45%;
-    float: left;
-}
-
 #map {
     position: relative;
     height: 100%;
-    width: 45%;
+    width: 39%;
     float: left;
+    margin-left: 100px;
 }
 
 .contact-form {
-    width: 53%;
+    width: 50%;
     margin-left: 2%;
     float: left;
+}
+
+.footermap {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 10px;
+    color: rgba(143, 143, 143, 0.863);
+    padding-bottom: 0px;
+    background-color: rgba(37, 37, 42, 0.637);
+    z-index: 0;
+    align-items: center;
 }
 
 .title {
@@ -44,9 +52,9 @@ body {
 
 input,
 textarea {
-    width: 350px;
+    width: 50%;
     padding: 3%;
-    margin: 2% 8%;
+    margin: 2% 2%;
     border: 1px solid blue;
 }
 
@@ -55,11 +63,14 @@ textarea {
 }
 
 .btn-send {
-    width: 180px;
-    height: 60px;
-    font-weight: 700;
-    margin: 2% 8%;
+    width: 170px;
+    height: 50px;
+    font-weight: 70;
+    margin: 2% 10%;
     border: none;
+    background-image: url(../IMG/mapBackground.jpg);
+    color: white;
+    border-radius: 50PX;
 }
 
 .imgLogo {
