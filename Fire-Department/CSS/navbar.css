@@ -54,7 +54,7 @@ a:hover {
 .navigation-menu ul {
     position: fixed;
     right: 120px;
-    top: 120px;
+    top: 140px;
     width: 400px;
     margin-top: 100px;
     margin-right: -170px;
@@ -124,8 +124,4 @@ li:hover {
 
 .navigation-menu.active li:nth-child(6) {
     transition-delay: .8s;
-}
-
-.navigation-menu.active li:nth-child(7) {
-    transition-delay: .9s;
 }

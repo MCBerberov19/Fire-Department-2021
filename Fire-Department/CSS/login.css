@@ -2,7 +2,7 @@ body {
     overflow: visible;
     height: 0px;
     background-image: url(../IMG/blurBackground.jpg);
-    background-position: 0px 0px;
+    background-position: 0px -17px;
     background-size: auto;
     background-size: cover;
     -o-object-fit: fill;
