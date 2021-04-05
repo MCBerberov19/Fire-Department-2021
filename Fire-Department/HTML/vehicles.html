@@ -12,6 +12,21 @@
 </head>
 
 <body>
+    <div class="navigation-wrapper">
+        <div class="navigation-button">
+            <i class="fa fa-bars"></i>
+        </div>
+        <div class="navigation-menu">
+            <ul>
+                <li><a href="../index.html">HOME</a></li>
+                <li><a href="../HTML/about.html">ABOUT US</a></li>
+                <li><a href="../HTML/teams.html">TEAMS</a></li>
+                <li><a href="../HTML/vehicles.html">VEHICLES</a></li>
+                <li><a href="../HTML/signal.html">GIVE A SIGNAL</a></li>
+                <li><a href="../HTML/login.html">LOGIN</a></li>
+            </ul>
+        </div>
+    </div>
     <div class="darker">
         <div class="pagetitle">
             <p> The best equipped vehicles </p>
@@ -23,5 +38,40 @@
     <p class="Vecihle2">This is our vehicle 2</p>
     <p class="Vecihle3">This is our vehicle 3</p>
     <p class="Vecihle4s">This is our vehicle 4</p>
+    <div class="footer">
 
+        <footer>
+            <div class="inner_footer">
+                <div class="logo_container">
+                    <a href="index.html"><img src="../IMG/ignityLogo.png" width="180px" style="float: left;"></a>
+
+                    <img src="../IMG/phoneLogo.png" width="28px" class="footerimg imgopacity" alt="phone">
+                    <h4 onclick="openContact()"> Contact us </h4>
+
+                    <img src="../IMG/githubLogo.png" width="28px" class="footerimg imgopacity" alt="github">
+                    <h4 onclick="openGithub()"> Github </h4>
+
+                    <img src="../IMG/placeLogo.png" width="22px" class="footerimg" alt="place">
+                    <h4 onclick="openPlace()"> Find us </h4>
+
+
+                    <img src="../IMG/outlookLogo.png" width="28px" class="footerimg imgopacity" alt="outlook">
+                    <h4 onclick="openOutlook()">
+                        Ignity@codingburgas.bg
+                    </h4>
+
+                    <img src="../IMG/profilePictureLogo.png" width="28px" class="footerimg imgopacity" alt="profile">
+                    <div class="popup footerimg" onclick="popUpTeam()">Team
+                        <span class="popuptext" id="myPopup">Veselin Stoyanov<br> Mario Berberov<br>Aleks Staykova<br> Georgi Vasilev</bt></span>
+                    </div>
+
+                    <script src="../JavaScript/footer.js"></script>
+                </div>
+
+            </div>
+        </footer>
+    </div>
+
+    <script src="../JavaScript/navbar.js">
+    </script>
 </body>
