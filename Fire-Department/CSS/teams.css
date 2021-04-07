@@ -1,0 +1,60 @@
+body {
+    overflow: visible;
+    height: 0px;
+    background-position: 0px 0px;
+    background-size: auto;
+    background-size: cover;
+    background-repeat: repeat-x;
+    -o-object-fit: fill;
+    object-fit: fill;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.imgLogo {
+    position: static;
+    display: inline-block;
+    margin-left: -10%;
+    padding-top: 0%;
+    width: 150px;
+    z-index: -1;
+}
+
+.teamAlpha {
+    margin-top: 7%;
+    margin-left: 9%;
+    width: 20%;
+    height: 500px;
+    border: solid black;
+    border-radius: 5%;
+}
+
+.innerAlpha {
+    text-align: center;
+}
+
+.teamBeta {
+    margin-top: -500px;
+    margin-left: 40%;
+    width: 20%;
+    height: 500px;
+    border: solid black;
+    border-radius: 5%;
+}
+
+.innerBeta {
+    text-align: center;
+}
+
+.teamGamma {
+    float: right;
+    margin-right: 9%;
+    margin-top: -500px;
+    border: solid black;
+    border-radius: 5%;
+    width: 20%;
+    height: 500px;
+}
+
+.innerGamma {
+    text-align: center;
+}
