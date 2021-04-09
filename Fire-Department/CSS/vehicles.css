@@ -128,3 +128,16 @@ h1 {
     transform: translate(-50%, -50%);
     text-align: center;
 }
+
+.footer_vehicles {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 10px;
+    color: rgb(14, 14, 14);
+    padding-bottom: 0px;
+    background-color: rgb(73, 73, 73);
+    z-index: 0;
+    align-items: center;
+}
