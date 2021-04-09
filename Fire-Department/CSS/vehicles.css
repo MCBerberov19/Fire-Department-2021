@@ -20,7 +20,7 @@
 
 .minititle {
     font-size: 20px;
-    color: rgb(255, 115, 0);
+    color: #f4511e;
 }
 
 .button {
@@ -40,12 +40,14 @@
 .vuvedenie {
     background-color: #f4511e;
     margin-top: 6%;
+    margin-bottom: 6%;
 }
 
 .inf {
     padding: 30px 240px;
     font-size: 21px;
     text-align: center;
+    color: white;
 }
 
 .button span {
@@ -60,10 +62,14 @@
     color: white;
 }
 
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(19, 19, 19, 0.767);
+}
+
 .contain {
-    margin-top: 6%;
-    margin-bottom: 3%;
     position: relative;
+    margin-bottom: 4%;
     width: 100%;
     background-image: url(../IMG/vehicle1Background.jpg);
     background-size: cover;
@@ -77,6 +83,7 @@
 .contain3 {
     background-image: url(../IMG/vehicle3Background.jpg);
     background-size: cover;
+    margin-bottom: 8%;
 }
 
 .image {
@@ -103,7 +110,7 @@
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #f4501ede;
+    background-color: #111111de;
 }
 
 .contain:hover .overlay {
