@@ -65,7 +65,18 @@
     margin-bottom: 3%;
     position: relative;
     width: 100%;
-    background-color: #f4511e;
+    background-image: url(../IMG/vehicle1Background.jpg);
+    background-size: cover;
+}
+
+.contain2 {
+    background-image: url(../IMG/vehicle2Background.jpg);
+    background-size: cover;
+}
+
+.contain3 {
+    background-image: url(../IMG/vehicle3Background.jpg);
+    background-size: cover;
 }
 
 .image {
