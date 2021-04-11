@@ -47,7 +47,7 @@
     padding: 30px 240px;
     font-size: 21px;
     text-align: center;
-    color: white;
+    color: rgb(15, 15, 15);
 }
 
 .button span {
@@ -63,7 +63,7 @@
 }
 
 h1 {
-    text-align: center;
+    padding-left: 4%;
     text-shadow: 2px 2px 5px rgba(19, 19, 19, 0.767);
 }
 
@@ -71,27 +71,14 @@ h1 {
     position: relative;
     margin-bottom: 4%;
     width: 100%;
-    background-image: url(../IMG/vehicle1Background.jpg);
     background-size: cover;
-}
-
-.contain2 {
-    background-image: url(../IMG/vehicle2Background.jpg);
-    background-size: cover;
-}
-
-.contain3 {
-    background-image: url(../IMG/vehicle3Background.jpg);
-    background-size: cover;
-    margin-bottom: 8%;
 }
 
 .image {
     width: 45%;
     height: auto;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 4%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.589), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -104,13 +91,22 @@ h1 {
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 0;
+    left: 50;
     right: 0;
     height: 100%;
-    width: 100%;
-    opacity: 0;
+    width: 50%;
+    opacity: 1;
     transition: .5s ease;
-    background-color: #111111de;
+    background-image: url(../IMG/vehicle1Background.jpg);
+    border-radius: 0px 80px 80px 0px;
+}
+
+.overlay2 {
+    background-image: url(../IMG/vehicle2Background.jpg);
+}
+
+.overlay3 {
+    background-image: url(../IMG/vehicle3Background.jpg);
 }
 
 .contain:hover .overlay {
@@ -118,15 +114,16 @@ h1 {
 }
 
 .text {
-    color: white;
     font-size: 20px;
     position: absolute;
     top: 50%;
     left: 50%;
+    color: white;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+    transition: .5s ease;
 }
 
 .footer_vehicles {
