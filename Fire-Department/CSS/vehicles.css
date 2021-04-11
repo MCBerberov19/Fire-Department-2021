@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .darker {
     background-image: url(../IMG/vehicles.jpg);
     background-position: 0px 0px;
