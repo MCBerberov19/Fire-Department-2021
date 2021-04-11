@@ -20,7 +20,7 @@
 
 .minititle {
     font-size: 20px;
-    color: rgb(255, 115, 0);
+    color: #f4511e;
 }
 
 .button {
@@ -39,13 +39,15 @@
 
 .vuvedenie {
     background-color: #f4511e;
-    margin-top: 50px;
+    margin-top: 6%;
+    margin-bottom: 6%;
 }
 
 .inf {
     padding: 30px 240px;
     font-size: 21px;
     text-align: center;
+    color: rgb(15, 15, 15);
 }
 
 .button span {
@@ -60,18 +62,100 @@
     color: white;
 }
 
-.button:hover span:after {
-    opacity: 1;
+h1 {
+    padding-left: 4%;
+    text-shadow: 2px 2px 5px rgba(19, 19, 19, 0.767);
+}
+
+.contain {
+    position: relative;
+    margin-bottom: 4%;
+    width: 100%;
+    background-size: cover;
+}
+
+.image {
+    width: 45%;
+    height: auto;
+    display: block;
+    margin-left: 4%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.589), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.margin {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50;
     right: 0;
+    height: 100%;
+    width: 50%;
+    opacity: 0.5;
+    transition: .5s ease;
+    background-image: url(../IMG/vehicle1Background.jpg);
+    border-radius: 0px 80px 80px 0px;
 }
 
-.Vehicle1 {
-    float: left;
-    margin-left: 1%;
-    margin-bottom: 10%;
-    font-size: 16px;
+.overlay2 {
+    background-image: url(../IMG/vehicle2Background.jpg);
 }
 
-#Vehicle1 {
-    margin-left: 25%;
+.overlay3 {
+    background-image: url(../IMG/vehicle3Background.jpg);
+}
+
+.contain:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+h2 {
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    transition: .5s ease;
+}
+
+.contain:hover h2 {
+    opacity: 0;
+}
+
+.contain:hover .text {
+    opacity: 1;
+}
+
+.footer_vehicles {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 10px;
+    color: rgb(14, 14, 14);
+    padding-bottom: 0px;
+    background-color: rgb(73, 73, 73);
+    z-index: 0;
+    align-items: center;
 }
