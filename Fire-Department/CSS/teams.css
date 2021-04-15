@@ -48,10 +48,6 @@ li {
     transition: 0.5s;
 }
 
-.innerAlpha:hover {
-    background-color: rgba(2, 2, 2, 0.555);
-}
-
 .members {
     font-size: 16px;
     margin-top: 15px;
