@@ -3,6 +3,7 @@ body {
     height: 0px;
     background-position: 0px 0px;
     background-size: auto;
+    background-image: url(../IMG/teamsBackground.jpg);
     background-size: cover;
     background-repeat: repeat-x;
     -o-object-fit: fill;
@@ -19,19 +20,44 @@ body {
     z-index: -1;
 }
 
+li {
+    list-style: none;
+}
+
 .teamAlpha {
     margin-top: 5%;
-    margin-left: 11%;
+    margin-left: 12%;
     margin-bottom: 3%;
     width: 22%;
     height: 500px;
     border: none;
+    color: white;
     border-radius: 8px;
     background-color: rgba(240, 248, 255, 0.623);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image: url(../IMG/cardsBackground1.jpeg);
+    background-size: cover;
 }
 
 .innerAlpha {
     text-align: center;
+    color: white;
+    background-color: rgba(2, 2, 2, 0.514);
+    padding-bottom: 75px;
+    border-radius: 8px;
+}
+
+li {
+    font-size: 16px;
+    margin-top: 15px;
+    margin-right: 35px;
+    border: solid;
+    border-right: none;
+    border-top: none;
+    border-left-width: 2px;
+    border-bottom-width: 2px;
+    border-bottom-color: rgb(179, 0, 0);
+    border-left-color: rgb(122, 0, 0);
 }
 
 .teamBeta {
@@ -42,26 +68,47 @@ body {
     height: 600px;
     border: none;
     border-radius: 8px;
-    background-color: rgba(240, 248, 255, 0.623);
+    color: white;
+    background-image: url(../IMG/cardsBackground2.jpeg);
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .innerBeta {
     text-align: center;
+    color: white;
+    background-color: rgba(2, 2, 2, 0.514);
+    padding-bottom: 136px;
+    border-radius: 8px;
+}
+
+.cardvehicle {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .teamGamma {
     float: right;
-    margin-right: 11%;
+    margin-right: 12%;
     margin-top: -550px;
     border: none;
     border-radius: 8px;
     width: 22%;
     height: 500px;
-    background-color: rgba(240, 248, 255, 0.623);
+    background-image: url(../IMG/cardsBackground.jpeg);
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.innerGamma {
+    color: white;
+    background-color: rgba(2, 2, 2, 0.514);
+    padding-bottom: 81px;
+    border-radius: 8px;
 }
 
 .cardtitle {
-    background-image: url(../IMG/vehicle1Background.jpg);
+    color: white;
+    background-color: rgb(184, 0, 0);
     background-size: cover;
     border-radius: 8px 8px 0px 0px;
 }
