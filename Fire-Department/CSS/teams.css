@@ -20,12 +20,14 @@ body {
 }
 
 .teamAlpha {
-    margin-top: 7%;
-    margin-left: 9%;
-    width: 20%;
+    margin-top: 5%;
+    margin-left: 11%;
+    margin-bottom: 3%;
+    width: 22%;
     height: 500px;
-    border: solid black;
-    border-radius: 5%;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(240, 248, 255, 0.623);
 }
 
 .innerAlpha {
@@ -33,12 +35,14 @@ body {
 }
 
 .teamBeta {
-    margin-top: -500px;
-    margin-left: 40%;
-    width: 20%;
-    height: 500px;
-    border: solid black;
-    border-radius: 5%;
+    float: left;
+    margin-top: -600px;
+    margin-left: 36.5%;
+    width: 27%;
+    height: 600px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(240, 248, 255, 0.623);
 }
 
 .innerBeta {
@@ -47,12 +51,25 @@ body {
 
 .teamGamma {
     float: right;
-    margin-right: 9%;
-    margin-top: -500px;
-    border: solid black;
-    border-radius: 5%;
-    width: 20%;
+    margin-right: 11%;
+    margin-top: -550px;
+    border: none;
+    border-radius: 8px;
+    width: 22%;
     height: 500px;
+    background-color: rgba(240, 248, 255, 0.623);
+}
+
+.cardtitle {
+    background-image: url(../IMG/vehicle1Background.jpg);
+    background-size: cover;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.teamsHeader {
+    margin-top: 0%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .innerGamma {
