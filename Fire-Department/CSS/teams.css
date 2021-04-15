@@ -42,15 +42,21 @@ li {
 .innerAlpha {
     text-align: center;
     color: white;
-    background-color: rgba(2, 2, 2, 0.514);
-    padding-bottom: 75px;
+    background-color: rgba(2, 2, 2, 0.664);
+    padding-bottom: 24px;
     border-radius: 8px;
+    transition: 0.5s;
 }
 
-li {
+.innerAlpha:hover {
+    background-color: rgba(2, 2, 2, 0.555);
+}
+
+.members {
     font-size: 16px;
     margin-top: 15px;
     margin-right: 35px;
+    letter-spacing: 1.5px;
     border: solid;
     border-right: none;
     border-top: none;
@@ -78,7 +84,7 @@ li {
     text-align: center;
     color: white;
     background-color: rgba(2, 2, 2, 0.514);
-    padding-bottom: 136px;
+    padding-bottom: 66px;
     border-radius: 8px;
 }
 
@@ -99,11 +105,25 @@ li {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.cardvehicle1 {
+    margin-top: 20px;
+}
+
 .innerGamma {
     color: white;
     background-color: rgba(2, 2, 2, 0.514);
-    padding-bottom: 81px;
+    padding-bottom: 24px;
     border-radius: 8px;
+}
+
+h3 {
+    margin-left: 40px;
+    margin-right: 35px;
+    border: solid;
+    border-color: rgb(148, 0, 0);
+    border-bottom-color: rgb(184, 0, 0);
+    border-right-color: rgb(184, 0, 0);
+    background-color: rgb(168, 0, 0);
 }
 
 .cardtitle {
