@@ -1,6 +1,5 @@
 body {
     overflow: visible;
-    height: 0px;
     background-position: 0px 0px;
     background-size: auto;
     background-image: url(../IMG/teamsBackground.jpg);
@@ -44,7 +43,6 @@ li {
     background-color: rgba(2, 2, 2, 0.664);
     padding-bottom: 24px;
     border-radius: 8px;
-    transition: 0.5s;
 }
 
 .teamAlpha:hover {
@@ -52,6 +50,10 @@ li {
     margin-left: 8%;
     width: 28%;
     height: 600px;
+}
+
+.innerAlpha:hover {
+    padding-bottom: 81px;
 }
 
 .members {
@@ -98,7 +100,7 @@ li {
 }
 
 .innerBeta:hover {
-    padding-bottom: 66px;
+    padding-bottom: 69px;
 }
 
 .cardvehicle {
@@ -108,7 +110,7 @@ li {
 .teamGamma {
     float: right;
     margin-right: 12%;
-    margin-top: -550px;
+    margin-top: -500px;
     border: none;
     border-radius: 8px;
     width: 22%;
@@ -127,6 +129,17 @@ li {
     background-color: rgba(2, 2, 2, 0.514);
     padding-bottom: 24px;
     border-radius: 8px;
+}
+
+.teamGamma:hover {
+    margin-top: -550px;
+    margin-right: 8%;
+    width: 28%;
+    height: 600px;
+}
+
+.innerGamma:hover {
+    padding-bottom: 81px;
 }
 
 h3 {
