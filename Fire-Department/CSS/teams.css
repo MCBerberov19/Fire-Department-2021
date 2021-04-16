@@ -27,7 +27,6 @@ li {
 .teamAlpha {
     margin-top: 5%;
     margin-left: 12%;
-    margin-bottom: 3%;
     width: 22%;
     height: 500px;
     border: none;
@@ -48,6 +47,13 @@ li {
     transition: 0.5s;
 }
 
+.teamAlpha:hover {
+    margin-top: 50px;
+    margin-left: 8%;
+    width: 28%;
+    height: 600px;
+}
+
 .members {
     font-size: 16px;
     margin-top: 15px;
@@ -64,10 +70,10 @@ li {
 
 .teamBeta {
     float: left;
-    margin-top: -600px;
-    margin-left: 36.5%;
-    width: 27%;
-    height: 600px;
+    margin-top: -500px;
+    margin-left: 39%;
+    width: 22%;
+    height: 500px;
     border: none;
     border-radius: 8px;
     color: white;
@@ -76,12 +82,23 @@ li {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.teamBeta:hover {
+    margin-top: -550px;
+    margin-left: 36.5%;
+    width: 27%;
+    height: 600px;
+}
+
 .innerBeta {
     text-align: center;
     color: white;
     background-color: rgba(2, 2, 2, 0.514);
-    padding-bottom: 66px;
+    padding-bottom: 4px;
     border-radius: 8px;
+}
+
+.innerBeta:hover {
+    padding-bottom: 66px;
 }
 
 .cardvehicle {
