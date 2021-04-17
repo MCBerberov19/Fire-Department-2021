@@ -1,22 +1,41 @@
 body {
     min-height: 100vh;
-    display: flex;
     align-items: center;
     justify-content: center;
     background-color: #f1f1f1;
 }
 
-.about-section {
+.about-section1 {
     background: url(../IMG/aboutPageImage.gif) no-repeat left;
+    background-size: 55%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding: 200px 0;
+}
+
+.about-section2 {
+    background: url(../IMG/aboutPageImage2.gif) no-repeat right;
     background-size: 55%;
     background-color: #fdfdfd;
     overflow: hidden;
     padding: 100px 0;
 }
 
-.inner-container {
+.about-section3 {
+    background: url(../IMG/aboutPageImage3.gif) no-repeat left;
+    background-size: 55%;
+}
+
+.inner-container1 {
     width: 55%;
     float: right;
+    background-color: #fdfdfd;
+    padding: 150px;
+}
+
+.inner-container2 {
+    width: 55%;
+    float: left;
     background-color: #fdfdfd;
     padding: 150px;
 }
