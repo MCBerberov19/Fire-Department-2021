@@ -24,10 +24,12 @@ li {
 }
 
 .teamAlpha {
-    margin-top: 5%;
+    float: left;
+    margin-top: 100px;
     margin-left: 12%;
+    margin-right: 45px;
     width: 22%;
-    height: 500px;
+    height: 50%;
     border: none;
     color: white;
     border-radius: 8px;
@@ -46,8 +48,9 @@ li {
 }
 
 .teamAlpha:hover {
-    margin-top: 50px;
+    margin-top: 40px;
     margin-left: 8%;
+    margin-right: 11px;
     width: 28%;
     height: 600px;
 }
@@ -72,10 +75,10 @@ li {
 
 .teamBeta {
     float: left;
-    margin-top: -500px;
-    margin-left: 39%;
+    margin-top: 100px;
+    margin-left: 45px;
     width: 22%;
-    height: 500px;
+    height: 50%;
     border: none;
     border-radius: 8px;
     color: white;
@@ -85,8 +88,8 @@ li {
 }
 
 .teamBeta:hover {
-    margin-top: -550px;
-    margin-left: 36.5%;
+    margin-top: 40px;
+    margin-left: 0px;
     width: 27%;
     height: 600px;
 }
@@ -108,13 +111,13 @@ li {
 }
 
 .teamGamma {
-    float: right;
-    margin-right: 12%;
-    margin-top: -500px;
+    float: left;
+    margin-left: 90px;
+    margin-top: 100px;
     border: none;
     border-radius: 8px;
     width: 22%;
-    height: 500px;
+    height: 50%;
     background-image: url(../IMG/cardsBackground.jpeg);
     background-size: cover;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -127,13 +130,13 @@ li {
 .innerGamma {
     color: white;
     background-color: rgba(2, 2, 2, 0.514);
-    padding-bottom: 24px;
+    padding-bottom: 6.5%;
     border-radius: 8px;
 }
 
 .teamGamma:hover {
-    margin-top: -550px;
-    margin-right: 8%;
+    margin-top: 40px;
+    margin-left: 0px;
     width: 28%;
     height: 600px;
 }
