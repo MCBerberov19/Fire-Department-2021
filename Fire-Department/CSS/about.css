@@ -2,7 +2,16 @@ body {
     min-height: 100vh;
     align-items: center;
     justify-content: center;
-    background-color: #f1f1f1;
+    background-color: #ffffff;
+}
+
+.imgLogo {
+    position: static;
+    display: inline-block;
+    margin-left: 9%;
+    margin-top: 2%;
+    width: 150px;
+    z-index: -1;
 }
 
 .about-section1 {
