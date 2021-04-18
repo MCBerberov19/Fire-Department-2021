@@ -1,16 +1,3 @@
-var mike = document.getElementById("mikePopUp");
-var christian = document.getElementById("christianPopUp");
-var daniel = document.getElementById("danielPopUp");
-var james = document.getElementById("jamesPopUp");
-var jamie = document.getElementById("jamiePopUp");
-var ralph = document.getElementById("ralphPopUp");
-var alejandro = document.getElementById("alejandroPopUp");
-var jay = document.getElementById("jayPopUp");
-var manny = document.getElementById("mannyPopUp");
-var phil = document.getElementById("philPopUp");
-var aleksander = document.getElementById("aleksanderPopUp");
-var roberto = document.getElementById("robertoPopUp");
-
 function mikePopUpInfo() {
 
     if (document.getElementById("mikePopUp").style.display = "none") {
