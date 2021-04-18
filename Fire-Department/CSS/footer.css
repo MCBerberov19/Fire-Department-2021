@@ -12,6 +12,20 @@
     align-items: center;
 }
 
+.footer-relative {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    padding-top: 10px;
+    color: rgb(14, 14, 14);
+    padding-bottom: 70px;
+    background-color: rgba(43, 43, 43, 0.637);
+    z-index: 0;
+    align-items: center;
+}
+
 h4 {
     float: left;
     padding-top: 8px;
