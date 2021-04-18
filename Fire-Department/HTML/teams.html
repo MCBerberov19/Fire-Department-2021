@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="../CSS/footer.css">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <script src="../JavaScript/teams.js"></script>
 </head>
 
 <body>
@@ -42,10 +42,14 @@
             <img src="../IMG/vehicle2.jpg" width="80%" class="cardvehicle">
             <h3>Members</h3>
             <ul>
-                <li class="members">Mike Gilies</li>
-                <li class="members">Christian Dornan</li>
-                <li class="members">Daniel Grey</li>
-                <li class="members">James Washington</li>
+                <li class="members" onmouseover="mikePopUpInfo()" onmouseout="mikePopOutInfo()">Mike Gilies</li>
+                <span class="popuptext" id="mikePopUp" style="display:none">Nationality: American, Age: 27 YO</span>
+                <li class="members" onmouseover="christianPopUpInfo()" onmouseout="christianPopOutInfo()">Christian Dornan</li>
+                <span class="popuptext" id="christianPopUp" style="display:none">Nationality: American, Age: 40 YO</span>
+                <li class="members" onmouseover="danielPopUpInfo()" onmouseout="danielPopOutInfo()">Daniel Grey</li>
+                <span class="popuptext" id="danielPopUp" style="display:none">Nationality: American, Age: 20 YO</span>
+                <li class="members" onmouseover="jamesPopUpInfo()" onmouseout="jamesPopOutInfo()">James Washington</li>
+                <span class="popuptext" id="jamesPopUp" style="display:none">Nationality: British, Age: 38 YO</span>
             </ul>
         </div>
     </div>
@@ -58,10 +62,15 @@
             <img src="../IMG/vehicle1.jpg" width="80%" class="cardvehicle cardvehicle1">
             <h3>Members</h3>
             <ul>
-                <li class="members">Jamie Robertson</li>
-                <li class="members">Ralph Badgley</li>
-                <li class="members">Alejandro Rodriguez</li>
-                <li class="members">Jay Delgado</li>
+                <li class="members" onmouseover="jamiePopUpInfo()" onmouseout="jamiePopOutInfo()">Jamie Robertson</li>
+                <span class="popuptext" id="jamiePopUp" style="display:none">Nationality: American, Age: 43 YO</span>
+                <li class="members" onmouseover="ralphPopUpInfo()" onmouseout="ralphPopOutInfo()">Ralph Badgley</li>
+                <span class="popuptext" id="ralphPopUp" style="display:none">Nationality: American, Age: 21 YO</span>
+                <li class="members" onmouseover="alejandroPopUpInfo()" onmouseout="alejandroPopOutInfo()">Alejandro Rodriguez</li>
+                <span class="popuptext" id="alejandroPopUp" style="display:none">Nationality: Spanish, Age: 28 YO</span>
+                <li class="members" onmouseover="jayPopUpInfo()" onmouseout="jayPopOutInfo()">Jay Delgado</li>
+                <span class="popuptext" id="jayPopUp" style="display:none">Nationality: Spanish, Age: 19 YO</span>
+
             </ul>
         </div>
 
@@ -76,10 +85,14 @@
             <img src="../IMG/vehicle3.jpg" width="80%" class="cardvehicle">
             <h3>Members</h3>
             <ul>
-                <li class="members">Manny Vergara</li>
-                <li class="members">Phil Humphrey</li>
-                <li class="members">Aleksander Kokoshin</li>
-                <li class="members">Roberto Delgado</li>
+                <li class="members" onmouseover="mannyPopUpInfo()" onmouseout="mannyPopOutInfo()">Manny Vergara</li>
+                <span class="popuptext" id="mannyPopUp" style="display:none">Nationality: Spanish, Age: 27 YO</span>
+                <li class="members" onmouseover="philPopUpInfo()" onmouseout="philPopOutInfo()">Phil Humphrey</li>
+                <span class="popuptext" id="philPopUp" style="display:none">Nationality: British, Age: 23 YO</span>
+                <li class="members" onmouseover="aleksanderPopUpInfo()" onmouseout="aleksanderPopOutInfo()">Aleksander Kokoshin</li>
+                <span class="popuptext" id="aleksanderPopUp" style="display:none">Nationality: Russian, Age: 25 YO</span>
+                <li class="members" onmouseover="robertoPopUpInfo()" onmouseout="robertoPopOutInfo()">Roberto Delgado</li>
+                <span class="popuptext" id="robertoPopUp" style="display:none">Nationality: Spanish, Age: 31 YO</span>
             </ul>
         </div>
     </div>
