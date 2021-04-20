@@ -27,7 +27,7 @@
    - ***Email***: [***MCBerberov19@codingburgas.bg***](mailto:MCBerberov19@codingburgas.bg)	
    - ***GitHub profile***: [***MCBerberov19***](https://github.com/MCBerberov19)	
  
-> 5. **VNStoyanov19** - **Developer Frontend**	
+> 4. **VNStoyanov19** - **Developer Frontend**	
    - ***Email***: [***VNStoyanov19@codingburgas.bg***](mailto:VNStoyanov19@codingburgas.bg)	
    - ***GitHub profile***: [***VNStoyanov19***](https://github.com/VNStoyanov19)
  
