@@ -26,7 +26,7 @@
     list-style: none;
     font-family: impact;
     font-weight: 300;
-    color: hsl(0, 0%, 70%);
+    color: hsl(0, 0%, 100%);
 }
 
 a:hover {
@@ -39,11 +39,9 @@ a:hover {
     top: 0;
     right: 0;
     width: 30%;
-    background-color: white;
-    background-image: url(../IMG/fireNavBar.gif);
+    background: linear-gradient(to left, rgb(221, 57, 20) 0%, rgb(247, 107, 21) 100%);
     background-position: center;
     background-size: cover;
-    filter: grayscale(30%);
     height: 100%;
     transform: skewX(0deg) translate(100%, 0);
     transform-origin: top right;
@@ -62,7 +60,7 @@ a:hover {
 }
 
 li:hover {
-    color: rgba(255, 255, 255, 0.678);
+    color: rgb(255, 255, 255);
 }
 
 .navigation-menu ul li {
@@ -75,7 +73,7 @@ li:hover {
 
 .navigation-menu ul li a {
     border: none;
-    color: rgb(104, 143, 202);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     cursor: pointer;
 }

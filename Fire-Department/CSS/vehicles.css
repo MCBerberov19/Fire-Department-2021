@@ -78,7 +78,8 @@ html {
     width: 50%;
     height: auto;
     display: block;
-    border-bottom-left-radius: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .overlay {
@@ -88,11 +89,11 @@ html {
     left: 50;
     right: 0;
     height: 100%;
-    width: 50%;
+    width: 45%;
     opacity: 0.9;
     transition: .5s ease;
     background-image: url(../IMG/vehicle1Background.jpg);
-    border-radius: 0px 20px 20px 0px;
+    border-radius: 10px;
 }
 
 .overlay2 {
@@ -131,7 +132,8 @@ html {
     width: 50%;
     background-color: #f4511e;
     color: rgb(0, 0, 0);
-    border-top-left-radius: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 

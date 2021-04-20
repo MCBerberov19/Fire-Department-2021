@@ -3,11 +3,17 @@ body {
     background-position: 0px 0px;
     background-size: auto;
     background-image: url(../IMG/teamsBackground.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
-    background-repeat: repeat-x;
-    -o-object-fit: fill;
-    object-fit: fill;
-    font-family: Arial, Helvetica, sans-serif;
+    background-size: 100% 600px;
+}
+
+.teamsTitle {
+    font-size: 45px;
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 300px;
 }
 
 .imgLogo {
@@ -24,28 +30,30 @@ li {
 }
 
 .teamAlpha {
-    float: left;
-    margin-top: 100px;
-    margin-left: 12%;
-    margin-right: 45px;
+    margin-left: 300px;
     width: 22%;
     height: 50%;
     border: none;
     color: white;
     border-radius: 8px;
-    background-color: rgba(240, 248, 255, 0.623);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-image: url(../IMG/cardsBackground1.jpeg);
+    background-color: rgb(202, 71, 41);
     background-size: cover;
     transition: 0.5s;
+}
+
+.inform1 {
+    font-size: 18px;
+    width: 35%;
+    margin-left: 850px;
+    margin-top: -20%;
+    margin-bottom: 20%;
 }
 
 .innerAlpha {
     text-align: center;
     color: white;
-    background-color: rgba(2, 2, 2, 0.664);
     padding-bottom: 24px;
-    border-radius: 8px;
 }
 
 .teamAlpha:hover {
@@ -70,23 +78,19 @@ li {
     border-top: none;
     border-left-width: 2px;
     border-bottom-width: 2px;
-    border-bottom-color: rgb(179, 0, 0);
-    border-left-color: rgb(122, 0, 0);
+    border-bottom-color: rgba(255, 255, 255, 0.637);
+    border-left-color: rgba(255, 255, 255, 0.63);
 }
 
 .teamBeta {
-    float: left;
-    margin-top: 100px;
-    margin-left: 45px;
-    margin-right: 45px;
     width: 22%;
     height: 50%;
     border: none;
     border-radius: 8px;
     color: white;
-    background-image: url(../IMG/cardsBackground2.jpeg);
-    background-size: cover;
+    background-color: rgba(217, 111, 45);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-size: cover;
     transition: 0.5s;
 }
 
@@ -101,36 +105,25 @@ li {
 .innerBeta {
     text-align: center;
     color: white;
-    background-color: rgba(2, 2, 2, 0.514);
     padding-bottom: 24px;
-    border-radius: 8px;
 }
 
 .innerBeta:hover {
     padding-bottom: 86px;
 }
 
-.cardvehicle {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
 .teamGamma {
-    float: left;
-    margin-left: 45px;
-    margin-top: 100px;
-    border: none;
     border-radius: 8px;
     width: 22%;
     height: 50%;
-    background-image: url(../IMG/cardsBackground.jpeg);
-    background-size: cover;
+    background-color: rgba(218, 167, 49);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-size: cover;
     transition: 0.5s;
 }
 
 .innerGamma {
     color: white;
-    background-color: rgba(2, 2, 2, 0.514);
     padding-bottom: 24px;
     border-radius: 8px;
 }
@@ -146,21 +139,45 @@ li {
     padding-bottom: 81px;
 }
 
+.text {
+    float: left;
+}
+
+.minititle {
+    color: rgb(202, 71, 41);
+    border-radius: 2px;
+}
+
+.minititle2 {
+    color: rgb(217, 111, 45);
+    border-radius: 2px;
+}
+
+.minititle3 {
+    color: rgba(218, 167, 49);
+    border-radius: 2px;
+}
+
 h3 {
     margin-left: 40px;
+    padding: 2px;
     margin-right: 35px;
-    border: solid;
-    border-color: rgb(148, 0, 0);
-    border-bottom-color: rgb(184, 0, 0);
-    border-right-color: rgb(184, 0, 0);
-    background-color: rgb(168, 0, 0);
+    background-color: rgb(231, 231, 231);
 }
 
 .cardtitle {
-    color: white;
-    background-color: rgb(184, 0, 0);
+    color: rgb(202, 71, 41);
+    background-color: rgb(231, 231, 231);
     background-size: cover;
     border-radius: 8px 8px 0px 0px;
+}
+
+.cardtitle2 {
+    color: rgb(217, 111, 45);
+}
+
+.cardtitle3 {
+    color: rgb(218, 167, 49);
 }
 
 .teamsHeader {

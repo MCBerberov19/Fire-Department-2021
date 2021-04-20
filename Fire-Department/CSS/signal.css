@@ -1,6 +1,6 @@
 body {
     font-family: 'Libre Franklin', sans-serif;
-    background-image: url(../IMG/mapBackground.jpg);
+    background: linear-gradient(to left, rgb(255, 137, 26) 0%, rgb(221, 43, 20) 100%);
 }
 
 .container {
@@ -8,15 +8,15 @@ body {
     margin: 2% auto;
     box-shadow: 0px 0px 10px #000000b2;
     position: relative;
-    background-color: #ffffff71;
-    z-index: 0;
+    background-color: #cfcfcfe3;
 }
 
 #map {
     position: relative;
-    height: 100%;
+    height: 90%;
     width: 53%;
     float: left;
+    margin-top: 25px;
     margin-left: 20px;
 }
 
@@ -26,15 +26,25 @@ body {
     float: right;
 }
 
+#carst {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.radios {
+    margin-top: 10px;
+    margin-left: -137px;
+}
+
 .footermap {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     padding-top: 10px;
-    color: rgba(143, 143, 143, 0.863);
+    color: rgb(26, 26, 26);
     padding-bottom: 0px;
-    background-color: rgba(37, 37, 42, 0.637);
+    background-color: #cfcfcfe3;
     z-index: 0;
     align-items: center;
 }
@@ -42,6 +52,7 @@ body {
 .title {
     font-size: 2.5em;
     font-weight: 700;
+    margin-top: 16%;
 }
 
 .subtitle {
@@ -61,21 +72,30 @@ textarea {
     margin-top: 2%;
 }
 
+.checkboxs {
+    padding-top: 20px;
+    margin-left: -136px;
+}
+
 .btn-send {
     width: 170px;
     height: 50px;
     font-weight: 70;
-    margin: 2% 10%;
+    margin: 2% 2%;
     border: none;
-    background-image: url(../IMG/mapBackground.jpg);
-    color: white;
+    color: rgb(228, 228, 228);
+    background: linear-gradient(to left, rgb(255, 137, 26) 0%, rgb(221, 43, 20) 100%);
     border-radius: 50PX;
+}
+
+#shu {
+    margin-left: -135px;
 }
 
 .imgLogo {
     position: static;
     display: inline-block;
-    margin-left: 9%;
+    margin-left: 6%;
     padding-top: 2%;
     width: 150px;
     z-index: -1;
