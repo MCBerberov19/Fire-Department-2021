@@ -34,7 +34,7 @@
         </div>
     </div>
     <h1 class="teamsTitle"> Our Professional Teams</h1>
-    <div class="teamAlpha">
+    <div class="teamAlpha" onmouseover="betaHover()" onmouseout="teamOut()">
         <div class="innerAlpha">
             <div class="cardtitle">
                 <h1 class="teamsHeader">Team Beta</h1>
@@ -42,19 +42,16 @@
             <img src="../IMG/vehicle2.jpg" width="80%" class="cardvehicle">
             <h3 class="minititle">Members</h3>
             <ul>
-                <li class="members" onmouseover="mikePopUpInfo()" onmouseout="mikePopOutInfo()">Mike Gilies</li>
-                <span class="popuptext" id="mikePopUp" style="display:none">Nationality: American, Age: 27 YO</span>
-                <li class="members" onmouseover="christianPopUpInfo()" onmouseout="christianPopOutInfo()">Christian Dornan</li>
-                <span class="popuptext" id="christianPopUp" style="display:none">Nationality: American, Age: 40 YO</span>
-                <li class="members" onmouseover="danielPopUpInfo()" onmouseout="danielPopOutInfo()">Daniel Grey</li>
-                <span class="popuptext" id="danielPopUp" style="display:none">Nationality: American, Age: 20 YO</span>
-                <li class="members" onmouseover="jamesPopUpInfo()" onmouseout="jamesPopOutInfo()">James Washington</li>
-                <span class="popuptext" id="jamesPopUp" style="display:none">Nationality: British, Age: 38 YO</span>
+                <li class="members" id="mike" onmouseover="mikePopUpInfo()" onmouseout="mikePopOutInfo()">Mike Gilies</li>
+                <li class="members" id="christian" onmouseover="christianPopUpInfo()" onmouseout="christianPopOutInfo()">Christian Dornan</li>
+                <li class="members" id="daniel" onmouseover="danielPopUpInfo()" onmouseout="danielPopOutInfo()">Daniel Grey</li>
+                <li class="members" id="james" onmouseover="jamesPopUpInfo()" onmouseout="jamesPopOutInfo()">James Washington</li>
+
             </ul>
         </div>
     </div>
 
-    <div class="teamBeta">
+    <div class="teamBeta" onmouseover="alphaHover()" onmouseout="teamOut()">
         <div class="innerBeta">
             <div class="cardtitle cardtitle2">
                 <h1 class="teamsHeader">Team Alpha</h1>
@@ -62,21 +59,16 @@
             <img src="../IMG/vehicle1.jpg" width="80%" class="cardvehicle cardvehicle1">
             <h3 class="minititle2">Members</h3>
             <ul>
-                <li class="members" onmouseover="jamiePopUpInfo()" onmouseout="jamiePopOutInfo()">Jamie Robertson</li>
-                <span class="popuptext" id="jamiePopUp" style="display:none">Nationality: American, Age: 43 YO</span>
-                <li class="members" onmouseover="ralphPopUpInfo()" onmouseout="ralphPopOutInfo()">Ralph Badgley</li>
-                <span class="popuptext" id="ralphPopUp" style="display:none">Nationality: American, Age: 21 YO</span>
-                <li class="members" onmouseover="alejandroPopUpInfo()" onmouseout="alejandroPopOutInfo()">Alejandro Rodriguez</li>
-                <span class="popuptext" id="alejandroPopUp" style="display:none">Nationality: Spanish, Age: 28 YO</span>
-                <li class="members" onmouseover="jayPopUpInfo()" onmouseout="jayPopOutInfo()">Jay Delgado</li>
-                <span class="popuptext" id="jayPopUp" style="display:none">Nationality: Spanish, Age: 19 YO</span>
-
+                <li class="members" id="jamie" onmouseover="jamiePopUpInfo()" onmouseout="jamiePopOutInfo()">Jamie Robertson</li>
+                <li class="members" id="ralph" onmouseover="ralphPopUpInfo()" onmouseout="ralphPopOutInfo()">Ralph Badgley</li>
+                <li class="members" id="alejandro" onmouseover="alejandroPopUpInfo()" onmouseout="alejandroPopOutInfo()">Alejandro Rodriguez</li>
+                <li class="members" id="jay" onmouseover="jayPopUpInfo()" onmouseout="jayPopOutInfo()">Jay Delgado</li>
             </ul>
         </div>
 
     </div>
 
-    <div class="teamGamma">
+    <div class="teamGamma" onmouseover="gammaHover()" onmouseout="teamOut()">
         <div class="innerGamma">
             <div class="cardtitle cardtitle3">
                 <h1 class="teamsHeader">Team Gamma</h1>
@@ -85,22 +77,16 @@
             <img src="../IMG/vehicle3.jpg" width="80%" class="cardvehicle">
             <h3 class="minititle3">Members</h3>
             <ul>
-                <li class="members" onmouseover="mannyPopUpInfo()" onmouseout="mannyPopOutInfo()">Manny Vergara</li>
-                <span class="popuptext" id="mannyPopUp" style="display:none">Nationality: Spanish, Age: 27 YO</span>
-                <li class="members" onmouseover="philPopUpInfo()" onmouseout="philPopOutInfo()">Phil Humphrey</li>
-                <span class="popuptext" id="philPopUp" style="display:none">Nationality: British, Age: 23 YO</span>
-                <li class="members" onmouseover="aleksanderPopUpInfo()" onmouseout="aleksanderPopOutInfo()">Aleksander Kokoshin</li>
-                <span class="popuptext" id="aleksanderPopUp" style="display:none">Nationality: Russian, Age: 25 YO</span>
-                <li class="members" onmouseover="robertoPopUpInfo()" onmouseout="robertoPopOutInfo()">Roberto Delgado</li>
-                <span class="popuptext" id="robertoPopUp" style="display:none">Nationality: Spanish, Age: 31 YO</span>
+                <li class="members" id="manny" onmouseover="mannyPopUpInfo()" onmouseout="mannyPopOutInfo()">Manny Vergara</li>
+                <li class="members" id="phil" onmouseover="philPopUpInfo()" onmouseout="philPopOutInfo()">Phil Humphrey</li>
+                <li class="members" id="aleksander" onmouseover="aleksanderPopUpInfo()" onmouseout="aleksanderPopOutInfo()">Aleksander Kokoshin</li>
+                <li class="members" id="roberto" onmouseover="robertoPopUpInfo()" onmouseout="robertoPopOutInfo()">Roberto Delgado</li>
             </ul>
         </div>
     </div>
-    <p class="inform"> Na obidi, znaesh, nosya I na udari pod krasta, No che me ostavyash, me ubi. Iztarpyah, kakvoto mozheh, I na um za teb se moleh. Az ne moga, Bog da ti prosti! Zashto ne prasnesh sas ratse Tova sartse, Prokletoto, da spre? Tova litse, krasivoto, Ot
-        bolka e sasipano. Prasni s ratse tova sartse! Ne e ot kamak - chupi se! Tova litse - vizh go dobre, Tova sam az i oshte te obicham! Ako mozhesh, <a href="../HTML/vehicles.html">here</a>
-    </p>
+    <p class="inform" id="info">Each team <b>Alpha</b>, <b>Beta</b> and <b>Gamma</b> contains four firefighters.</p>
 
-    <div class="footer">
+    <div class="footer-relative">
 
         <footer>
             <div class="inner_footer">

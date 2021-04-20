@@ -41,23 +41,27 @@
         </script>
         <div class="contact-form">
             <h1 class="title">Give a Signal</h1>
-            <h2 class="subtitle">We are here assist you.</h2>
-            <form action="">
-                <input type="number" class="textf" name="number" placeholder="Your Number" />
-                <input type="text" class="textf" name="adress" placeholder="Adress Of The Accident" />
-                <label for="cars" id="carst">Choose a team:</label>
-                <select name="cars" id="cars">
-    <option value="volvo">Alpha</option>
-    <option value="saab">Beta</option>
-    <option value="opel">Gamma</option>
-  </select>
+            <h2 class="subtitle">We are here assist to you.</h2>
+            <form>
+                <input type="tel" id="number" class="textf" name="phone" placeholder="Your Number" required/>
+                <input type="text" id="adress" class="textf" name="adress" placeholder="Adress Of The Accident" required />
+                <label for="team" id="carst">Choose a team:</label>
+
+                <select name="cars" id="teams" required> 
+                <option value="" disabled selected hidden>Choose a team</option>
+                <option value="alpha">Alpha</option>
+                <option value="beta">Beta</option>
+                <option value="gamma">Gamma</option>
+                </select>
 
                 <div class="checkboxs">
-                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-                    <label for="vehicle1" id="shu"> Police & Ambulance</label><br>
+                    <input type="checkbox" id="vehicle1" name="vehicle1">
+                    <label for="vehicle1" id="shu"> Police</label><br>
+                    <input type="checkbox" id="vehicle2" name="vehicle2">
+                    <label for="vehicle1" id="shu1"> Ambulance</label><br>
                 </div>
-                <button class="btn-send">Get a Call Back</button>
-
+                <br>
+                <button class="btn-send" onsubmit="">Get a Call Back</button>
             </form>
 
         </div>

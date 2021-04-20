@@ -65,7 +65,8 @@ textarea {
     width: 50%;
     padding: 3%;
     margin: 2% 2%;
-    border: 1px solid blue;
+    border: 1px solid rgb(255, 137, 26);
+    ;
 }
 
 .textf {
@@ -85,10 +86,14 @@ textarea {
     border: none;
     color: rgb(228, 228, 228);
     background: linear-gradient(to left, rgb(255, 137, 26) 0%, rgb(221, 43, 20) 100%);
-    border-radius: 50PX;
+    border-radius: 50px;
 }
 
 #shu {
+    margin-left: -135px;
+}
+
+#shu1 {
     margin-left: -135px;
 }
 

@@ -1,155 +1,117 @@
 function mikePopUpInfo() {
-
-    if (document.getElementById("mikePopUp").style.display = "none") {
-        document.getElementById("mikePopUp").style.display = "block";
-    }
+    document.getElementById("mike").innerHTML = "Nationality: American, Age: 27 YO";
 }
 
 function mikePopOutInfo() {
-    if (document.getElementById("mikePopUp").style.display = "block") {
-        document.getElementById("mikePopUp").style.display = "none";
-    }
+    document.getElementById("mike").innerHTML = "Mike Gilies";
 }
 
 function christianPopUpInfo() {
 
-    if (document.getElementById("christianPopUp").style.display = "none") {
-        document.getElementById("christianPopUp").style.display = "block";
-    }
+    document.getElementById("christian").innerHTML = "Nationality: American, Age: 40 YO";
 }
 
 function christianPopOutInfo() {
-    if (document.getElementById("christianPopUp").style.display = "block") {
-        document.getElementById("christianPopUp").style.display = "none";
-    }
+    document.getElementById("christian").innerHTML = "Christian Dornan";
 }
 
 function danielPopUpInfo() {
 
-    if (document.getElementById("danielPopUp").style.display = "none") {
-        document.getElementById("danielPopUp").style.display = "block";
-    }
+    document.getElementById("daniel").innerHTML = "Nationality: American, Age: 20 YO";
 }
 
 function danielPopOutInfo() {
-    if (document.getElementById("danielPopUp").style.display = "block") {
-        document.getElementById("danielPopUp").style.display = "none";
-    }
+    document.getElementById("daniel").innerHTML = "Daniel Grey";
 }
 
 function jamesPopUpInfo() {
 
-    if (document.getElementById("jamesPopUp").style.display = "none") {
-        document.getElementById("jamesPopUp").style.display = "block";
-    }
+    document.getElementById("james").innerHTML = "Nationality: British, Age: 38 YO";
 }
 
 function jamesPopOutInfo() {
-    if (document.getElementById("jamesPopUp").style.display = "block") {
-        document.getElementById("jamesPopUp").style.display = "none";
-    }
+    document.getElementById("james").innerHTML = "James Washington";
 }
 
 function jamiePopUpInfo() {
 
-    if (document.getElementById("jamiePopUp").style.display = "none") {
-        document.getElementById("jamiePopUp").style.display = "block";
-    }
+    document.getElementById("jamie").innerHTML = "Nationality: American, Age: 43 YO";
 }
 
 function jamiePopOutInfo() {
-    if (document.getElementById("jamiePopUp").style.display = "block") {
-        document.getElementById("jamiePopUp").style.display = "none";
-    }
+    document.getElementById("jamie").innerHTML = "Jamie Robertson";
 }
 
 function ralphPopUpInfo() {
 
-    if (document.getElementById("ralphPopUp").style.display = "none") {
-        document.getElementById("ralphPopUp").style.display = "block";
-    }
+    document.getElementById("ralph").innerHTML = "Nationality: American, Age: 21 YO";
 }
 
 function ralphPopOutInfo() {
-    if (document.getElementById("ralphPopUp").style.display = "block") {
-        document.getElementById("ralphPopUp").style.display = "none";
-    }
+    document.getElementById("ralph").innerHTML = "Ralph Badgley";
 }
 
 function alejandroPopUpInfo() {
-
-    if (document.getElementById("alejandroPopUp").style.display = "none") {
-        document.getElementById("alejandroPopUp").style.display = "block";
-    }
+    document.getElementById("alejandro").innerHTML = "Nationality: Spanish, Age: 28 YO";
 }
 
 function alejandroPopOutInfo() {
-    if (document.getElementById("alejandroPopUp").style.display = "block") {
-        document.getElementById("alejandroPopUp").style.display = "none";
-    }
+    document.getElementById("alejandro").innerHTML = "Alejandro Rodriguez";
 }
 
 function jayPopUpInfo() {
 
-    if (document.getElementById("jayPopUp").style.display = "none") {
-        document.getElementById("jayPopUp").style.display = "block";
-    }
+    document.getElementById("jay").innerHTML = "Nationality: Spanish, Age: 19 YO";
 }
 
 function jayPopOutInfo() {
-    if (document.getElementById("jayPopUp").style.display = "block") {
-        document.getElementById("jayPopUp").style.display = "none";
-    }
+    document.getElementById("jay").innerHTML = "Jay Delgado";
 }
 
 function mannyPopUpInfo() {
-
-    if (document.getElementById("mannyPopUp").style.display = "none") {
-        document.getElementById("mannyPopUp").style.display = "block";
-    }
+    document.getElementById("manny").innerHTML = "Nationality: Spanish, Age: 27 YO";
 }
 
 function mannyPopOutInfo() {
-    if (document.getElementById("mannyPopUp").style.display = "block") {
-        document.getElementById("mannyPopUp").style.display = "none";
-    }
+    document.getElementById("manny").innerHTML = "Manny Vergara";
 }
 
 function philPopUpInfo() {
-
-    if (document.getElementById("philPopUp").style.display = "none") {
-        document.getElementById("philPopUp").style.display = "block";
-    }
+    document.getElementById("phil").innerHTML = "Nationality: British, Age: 23 YO";
 }
 
 function philPopOutInfo() {
-    if (document.getElementById("philPopUp").style.display = "block") {
-        document.getElementById("philPopUp").style.display = "none";
-    }
+    document.getElementById("phil").innerHTML = "Phil Humphrey";
 }
 
 function aleksanderPopUpInfo() {
-
-    if (document.getElementById("aleksanderPopUp").style.display = "none") {
-        document.getElementById("aleksanderPopUp").style.display = "block";
-    }
+    document.getElementById("aleksander").innerHTML = "Nationality: Russian, Age: 25 YO";
 }
 
 function aleksanderPopOutInfo() {
-    if (document.getElementById("aleksanderPopUp").style.display = "block") {
-        document.getElementById("aleksanderPopUp").style.display = "none";
-    }
+    document.getElementById("aleksander").innerHTML = "Aleksander Kokoshin";
 }
 
 function robertoPopUpInfo() {
-
-    if (document.getElementById("robertoPopUp").style.display = "none") {
-        document.getElementById("robertoPopUp").style.display = "block";
-    }
+    document.getElementById("roberto").innerHTML = "Nationality: Spanish, Age: 31 YO";
 }
 
 function robertoPopOutInfo() {
-    if (document.getElementById("robertoPopUp").style.display = "block") {
-        document.getElementById("robertoPopUp").style.display = "none";
-    }
+    document.getElementById("roberto").innerHTML = "Roberto Delgado";
+}
+
+function alphaHover() {
+    document.getElementById("info").innerHTML = `We are team <b>Alpha</b>! Our captain is <i>Jamie Robertson</i>.`;
+}
+
+function betaHover() {
+    document.getElementById("info").innerHTML = `We are team <b>Beta</b>! Our captain is <i>Mike Gilies</i>.`;
+}
+
+function gammaHover() {
+    document.getElementById("info").innerHTML = `We are team <b>Gamma</b>! Our captain is <i>Manny Vergara</i>.`;
+}
+
+function teamOut() {
+    document.getElementById("info").innerHTML = "Each team <b>Alpha</b>, <b>Beta</b> and <b>Gamma</b> contains four firefighters.";
 }

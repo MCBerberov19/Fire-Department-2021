@@ -14,3 +14,7 @@ function initMap() {
 
     });
 }
+
+function check() {
+
+}
