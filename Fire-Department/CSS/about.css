@@ -2,7 +2,7 @@ body {
     min-height: 100vh;
     align-items: center;
     justify-content: center;
-    background-color: #ffffff;
+    background-color: #ff3c00;
 }
 
 .imgLogo {
@@ -17,7 +17,7 @@ body {
 .about-section1 {
     background: url(../IMG/aboutPageImage.gif) no-repeat left;
     background-size: 55%;
-    background-color: #fdfdfd;
+    background-color: #ff6600;
     overflow: hidden;
     padding: 200px 0;
 }
@@ -27,6 +27,7 @@ body {
     background-size: 55%;
     background-color: #fdfdfd;
     overflow: hidden;
+    color: white;
     padding: 100px 0;
 }
 
@@ -45,7 +46,8 @@ body {
 .inner-container2 {
     width: 55%;
     float: left;
-    background-color: #fdfdfd;
+    color: white;
+    background-color: #ff6600;
     padding: 150px;
 }
 

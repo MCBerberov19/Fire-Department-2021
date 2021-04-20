@@ -1,191 +1,203 @@
-body {
-    overflow: visible;
-    background-position: 0px 0px;
-    background-size: auto;
-    background-image: url(../IMG/teamsBackground.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-size: 100% 600px;
-}
-
-.teamsTitle {
-    font-size: 45px;
-    color: white;
-    text-align: center;
-    margin-top: 200px;
-    margin-bottom: 300px;
-}
-
-.imgLogo {
-    position: static;
-    display: inline-block;
-    margin-left: 9%;
-    padding-top: 2%;
-    width: 150px;
-    z-index: -1;
-}
-
-li {
-    list-style: none;
-}
-
-.teamAlpha {
-    margin-left: 300px;
-    width: 22%;
-    height: 50%;
-    border: none;
-    color: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-color: rgb(202, 71, 41);
-    background-size: cover;
-    transition: 0.5s;
-}
-
-.inform1 {
-    font-size: 18px;
-    width: 35%;
-    margin-left: 850px;
-    margin-top: -20%;
-    margin-bottom: 20%;
-}
-
-.innerAlpha {
-    text-align: center;
-    color: white;
-    padding-bottom: 24px;
-}
-
-.teamAlpha:hover {
-    margin-top: 40px;
-    margin-left: 8%;
-    margin-right: 11px;
-    width: 28%;
-    height: 60%;
-}
-
-.innerAlpha:hover {
-    padding-bottom: 81px;
-}
-
-.members {
-    font-size: 16px;
-    margin-top: 15px;
-    margin-right: 35px;
-    letter-spacing: 1.5px;
-    border: solid;
-    border-right: none;
-    border-top: none;
-    border-left-width: 2px;
-    border-bottom-width: 2px;
-    border-bottom-color: rgba(255, 255, 255, 0.637);
-    border-left-color: rgba(255, 255, 255, 0.63);
-}
-
-.teamBeta {
-    width: 22%;
-    height: 50%;
-    border: none;
-    border-radius: 8px;
-    color: white;
-    background-color: rgba(217, 111, 45);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-size: cover;
-    transition: 0.5s;
-}
-
-.teamBeta:hover {
-    margin-top: 40px;
-    margin-left: 0px;
-    margin-right: 0px;
-    width: 27%;
-    height: 60%;
-}
-
-.innerBeta {
-    text-align: center;
-    color: white;
-    padding-bottom: 24px;
-}
-
-.innerBeta:hover {
-    padding-bottom: 86px;
-}
-
-.teamGamma {
-    border-radius: 8px;
-    width: 22%;
-    height: 50%;
-    background-color: rgba(218, 167, 49);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-size: cover;
-    transition: 0.5s;
-}
-
-.innerGamma {
-    color: white;
-    padding-bottom: 24px;
-    border-radius: 8px;
-}
-
-.teamGamma:hover {
-    margin-top: 40px;
-    margin-left: 0px;
-    width: 28%;
-    height: 60%;
-}
-
-.innerGamma:hover {
-    padding-bottom: 81px;
-}
-
-.text {
-    float: left;
-}
-
-.minititle {
-    color: rgb(202, 71, 41);
-    border-radius: 2px;
-}
-
-.minititle2 {
-    color: rgb(217, 111, 45);
-    border-radius: 2px;
-}
-
-.minititle3 {
-    color: rgba(218, 167, 49);
-    border-radius: 2px;
-}
-
-h3 {
-    margin-left: 40px;
-    padding: 2px;
-    margin-right: 35px;
-    background-color: rgb(231, 231, 231);
-}
-
-.cardtitle {
-    color: rgb(202, 71, 41);
-    background-color: rgb(231, 231, 231);
-    background-size: cover;
-    border-radius: 8px 8px 0px 0px;
-}
-
-.cardtitle2 {
-    color: rgb(217, 111, 45);
-}
-
-.cardtitle3 {
-    color: rgb(218, 167, 49);
-}
-
-.teamsHeader {
-    margin-top: 0%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.innerGamma {
-    text-align: center;
-}
+    body {
+        overflow: visible;
+        background-position: 0px 0px;
+        background-size: auto;
+        background-image: url(../IMG/teamsBackground.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-size: 100% 600px;
+    }
+    
+    .fuck {
+        margin-top: 400px;
+        margin-bottom: 100px;
+    }
+    
+    .imgLogo {
+        position: static;
+        display: inline-block;
+        margin-left: 9%;
+        padding-top: 2%;
+        width: 150px;
+        z-index: -1;
+    }
+    
+    li {
+        list-style: none;
+    }
+    
+    .teamsTitle {
+        color: white;
+        text-align: center;
+        margin-bottom: 16%;
+        margin-top: 12%;
+    }
+    
+    .inform {
+        width: 50%;
+        margin-bottom: 10%;
+        margin-left: 25%;
+        margin-top: 58%;
+        font-size: 17px;
+        text-align: center;
+    }
+    
+    .teamAlpha {
+        float: left;
+        margin-top: 100px;
+        margin-left: 12%;
+        margin-right: 45px;
+        width: 22%;
+        height: 50%;
+        border: none;
+        color: white;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        background-color: rgb(202, 71, 41);
+        background-size: cover;
+        transition: 0.5s;
+    }
+    
+    .innerAlpha {
+        text-align: center;
+        color: white;
+        padding-bottom: 24px;
+    }
+    
+    .teamAlpha:hover {
+        margin-top: 40px;
+        margin-left: 8%;
+        margin-right: 11px;
+        width: 28%;
+        height: 60%;
+    }
+    
+    .innerAlpha:hover {
+        padding-bottom: 81px;
+    }
+    
+    .members {
+        font-size: 16px;
+        margin-top: 15px;
+        margin-right: 35px;
+        letter-spacing: 1.5px;
+        border: solid;
+        border-right: none;
+        border-top: none;
+        border-left-width: 2px;
+        border-bottom-width: 2px;
+        border-bottom-color: rgba(255, 255, 255, 0.637);
+        border-left-color: rgba(255, 255, 255, 0.63);
+    }
+    
+    .teamBeta {
+        float: left;
+        margin-top: 100px;
+        margin-left: 45px;
+        margin-right: 45px;
+        width: 22%;
+        height: 50%;
+        border: none;
+        border-radius: 8px;
+        color: white;
+        background-color: rgba(217, 111, 45);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        background-size: cover;
+        transition: 0.5s;
+    }
+    
+    .teamBeta:hover {
+        margin-top: 40px;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 27%;
+        height: 60%;
+    }
+    
+    .innerBeta {
+        text-align: center;
+        color: white;
+        padding-bottom: 24px;
+    }
+    
+    .innerBeta:hover {
+        padding-bottom: 86px;
+    }
+    
+    .teamGamma {
+        float: left;
+        margin-left: 45px;
+        margin-top: 100px;
+        border: none;
+        border-radius: 8px;
+        width: 22%;
+        height: 50%;
+        background-color: rgba(218, 167, 49);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        background-size: cover;
+        transition: 0.5s;
+    }
+    
+    .innerGamma {
+        color: white;
+        padding-bottom: 24px;
+        border-radius: 8px;
+    }
+    
+    .teamGamma:hover {
+        margin-top: 40px;
+        margin-left: 0px;
+        width: 28%;
+        height: 60%;
+    }
+    
+    .innerGamma:hover {
+        padding-bottom: 81px;
+    }
+    
+    .minititle {
+        color: rgb(202, 71, 41);
+        border-radius: 2px;
+    }
+    
+    .minititle2 {
+        color: rgb(217, 111, 45);
+        border-radius: 2px;
+    }
+    
+    .minititle3 {
+        color: rgba(218, 167, 49);
+        border-radius: 2px;
+    }
+    
+    h3 {
+        margin-left: 40px;
+        padding: 2px;
+        margin-right: 35px;
+        background-color: rgb(231, 231, 231);
+    }
+    
+    .cardtitle {
+        color: rgb(202, 71, 41);
+        background-color: rgb(231, 231, 231);
+        background-size: cover;
+        border-radius: 8px 8px 0px 0px;
+    }
+    
+    .cardtitle2 {
+        color: rgb(217, 111, 45);
+    }
+    
+    .cardtitle3 {
+        color: rgb(218, 167, 49);
+    }
+    
+    .teamsHeader {
+        margin-top: 0%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .innerGamma {
+        text-align: center;
+    }
