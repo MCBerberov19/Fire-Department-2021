@@ -2,7 +2,7 @@ body {
     min-height: 100vh;
     align-items: center;
     justify-content: center;
-    background-color: #ff3c00;
+    background-color: white;
 }
 
 .imgLogo {
@@ -17,7 +17,7 @@ body {
 .about-section1 {
     background: url(../IMG/aboutPageImage.gif) no-repeat left;
     background-size: 55%;
-    background-color: #ff6600;
+    background-color: white;
     overflow: hidden;
     padding: 200px 0;
 }
@@ -25,7 +25,7 @@ body {
 .about-section2 {
     background: url(../IMG/aboutPageImage2.gif) no-repeat right;
     background-size: 55%;
-    background-color: #fdfdfd;
+    background-color: #ff6600;
     overflow: hidden;
     color: white;
     padding: 100px 0;
@@ -37,17 +37,18 @@ body {
 }
 
 .inner-container1 {
+    color: white;
     width: 55%;
     float: right;
-    background-color: #fdfdfd;
+    background-color: #ff6600;
     padding: 150px;
 }
 
 .inner-container2 {
     width: 55%;
     float: left;
-    color: white;
-    background-color: #ff6600;
+    color: black;
+    background-color: white;
     padding: 150px;
 }
 
