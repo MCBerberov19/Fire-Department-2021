@@ -1,7 +1,7 @@
  # Welcome IGNITY (Firefighters)!
  	
  <p align = "center">
-  <img width = "460" height = "80" src = "Fire-Department/IMG/ignityLogo.png">
+  <img width = "591" height = "222" src = "Fire-Department/IMG/ignityLogo.png">
  </p>
 
 ---
