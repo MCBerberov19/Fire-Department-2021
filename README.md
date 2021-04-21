@@ -4,17 +4,17 @@
  
 ---
  
-## 📖 Table of Contents
+## 📖Table of Contents
  
 + [Goal](#goal)
 + [Team](#team)
 + [Technologies](#technologies)
 + [Installation](#installation)
  
-## 🎯 Goal <a name = "goal"></a>
+## 🎯Goal <a name = "goal"></a>
 > Our **goal** is to significantly reduce incidents and, in particular, fires. Our site offers information about our cars, qualified firefighters and a page through which you can give a signal. Also you have an option with which you can choose whether you want us to send with the *firefighters* 🚒, also *police* 🚓 or *ambulance* 🚑.
  
-## Team	<a name = "team"></a>
+## 💪🏻Team	<a name = "team"></a>
 > 1. **ASStaykova19** - **Scrum trainer**	
    - ***Email***: [***ASStaykova19@codingburgas.bg***](mailto:ASStaykova19@codingburgas.bg)	
    - ***GitHub profile***: [***ASStaykova19***](https://github.com/ASStaykova19)	
@@ -32,10 +32,10 @@
    - ***GitHub profile***: [***VNStoyanov19***](https://github.com/VNStoyanov19)
  
  
-## 💻 Technologies	<a name = "technologies"></a>
+## 💻Technologies	<a name = "technologies"></a>
 > The technologies we used for our project are **Microsoft Teams** for communication, **Git** and **GitHub** for code storage and teamwork on the code, **Visual Studio Code** for the code editor, the languages we used are **HTML** for body of our webpage, **CSS** for style and **JavaScript** for animations and other things, **PowerPoint** for preparing a presentation, **Word** for preparing documentation and QA documentation, **Excel** for test cases, and **OneDrive** for sharing files.	
  
-## ⚙️ Installation	<a name = "installation"></a>
+## ⚙️Installation	<a name = "installation"></a>
  
 Open your **CMD** and paste this code:
  
