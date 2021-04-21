@@ -37,10 +37,12 @@ body {
 }
 
 .inner-container1 {
+    background-color: white;
     color: white;
     width: 55%;
     float: right;
-    background-color: #ff6600;
+    border: solid 3px;
+    border-color: #ff6600;
     padding: 150px;
 }
 
@@ -59,7 +61,7 @@ body {
 }
 
 .text {
-    font-size: 13px;
+    font-size: 14px;
     color: #545454;
     line-height: 30px;
     text-align: justify;
@@ -71,6 +73,11 @@ body {
     justify-content: space-between;
     font-weight: 700;
     font-size: 13px;
+    color: black;
+}
+
+.cont-title {
+    color: black;
 }
 
 @media screen and (max-width:1200px) {
