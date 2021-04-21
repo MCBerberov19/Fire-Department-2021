@@ -3,7 +3,6 @@ body {
     height: 0px;
     background-image: url(../IMG/blurBackground.jpg);
     background-position: 0px -17px;
-    background-size: auto;
     background-size: cover;
     -o-object-fit: fill;
     object-fit: fill;
@@ -128,7 +127,7 @@ body {
     padding-top: 10px;
     color: rgb(14, 14, 14);
     padding-bottom: 0px;
-    background-color: rgba(255, 255, 255, 0.200);
+    background-color: rgb(240, 221, 191);
     z-index: 0;
     align-items: center;
 }
