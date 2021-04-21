@@ -87,6 +87,7 @@ textarea {
     color: rgb(228, 228, 228);
     background: linear-gradient(to left, rgb(255, 137, 26) 0%, rgb(221, 43, 20) 100%);
     border-radius: 50px;
+    outline: none;
 }
 
 #shu {

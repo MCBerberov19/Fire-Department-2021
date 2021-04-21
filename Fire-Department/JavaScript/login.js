@@ -39,9 +39,6 @@ function check() {
         window.open("../index.html", "_self", "replace")
         alert(`Welcome ${username.value} !`);
     }
-
-
-
 }
 
 function onFocus(thing) {

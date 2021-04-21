@@ -16,5 +16,11 @@ function initMap() {
 }
 
 function check() {
+    let number = document.getElementById("number");
+    if (isNaN(number.value) == true) {
+        alert("Enter a valid number !");
+        number.value = '';
+    }
+
 
 }
