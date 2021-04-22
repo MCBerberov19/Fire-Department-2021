@@ -78,6 +78,10 @@ textarea {
     margin-left: -136px;
 }
 
+#teams {
+    border-color: black;
+}
+
 .btn-send {
     width: 170px;
     height: 50px;

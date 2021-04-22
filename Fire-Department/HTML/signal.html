@@ -2,7 +2,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>MAP</title>
+    <title>Give a signal</title>
     <link rel="stylesheet" type="text/css" href="../CSS/signal.css">
     <link rel="stylesheet" type="text/css" href="../CSS/navbar.css">
     <link rel="stylesheet" type="text/css" href="../CSS/footer.css">
@@ -48,13 +48,13 @@
         </script>
         <div class="contact-form">
             <h1 class="title">Give a Signal</h1>
-            <h2 class="subtitle">We are here assist to you.</h2>
+            <h2 id="showText" class="subtitle">We are here assist to you.</h2>
             <form>
-                <input type="tel" id="number" class="textf" name="phone" placeholder="Your Number" required/>
-                <input type="text" id="adress" class="textf" name="adress" placeholder="Adress Of The Accident" required/>
+                <input type="tel" id="number" class="textf" name="phone" placeholder="Your Number" />
+                <input type="text" id="adress" class="textf" name="adress" placeholder="Adress Of The Accident" />
                 <label for="team" id="carst">Choose a team:</label>
 
-                <select name="cars" id="teams" required> 
+                <select name="cars" id="teams"> 
                 <option value="" disabled selected hidden>Choose a team</option>
                 <option value="Alpha">Alpha</option>
                 <option value="Beta">Beta</option>
@@ -68,7 +68,7 @@
                     <label for="vehicle1" id="shu1"> Ambulance</label><br>
                 </div>
                 <br>
-                <button class="btn-send" onclick="check()">Get a Call Back</button>
+                <button type="button" class="btn-send" onclick="check()">Get a Call Back</button>
             </form>
 
         </div>
