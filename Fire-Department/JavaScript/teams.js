@@ -1,3 +1,5 @@
+//On hover functions which show us the information about the firefighters in each team
+
 function mikePopUpInfo() {
     document.getElementById("mike").innerHTML = "Nationality: American, Age: 27 YO";
 }
@@ -99,6 +101,8 @@ function robertoPopUpInfo() {
 function robertoPopOutInfo() {
     document.getElementById("roberto").innerHTML = "Roberto Delgado";
 }
+
+//On hover functions which show us the information about each team
 
 function alphaHover() {
     document.getElementById("info").innerHTML = `We are team <b>Alpha</b>! Our captain is <i>Jamie Robertson</i>.`;

@@ -1,3 +1,5 @@
+//On click shows team info
+
 function popUpTeam() {
     var popup = document.getElementById("myPopup");
     popup.classList.toggle("show");
@@ -24,6 +26,7 @@ function openGithub() {
     }
 }
 
+//Shows mobile number on click
 function openContact() {
     alert("+359 111 222 333");
 }

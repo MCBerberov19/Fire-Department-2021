@@ -1,6 +1,7 @@
 var check1 = false;
 var check2 = false;
 
+//Checks the accuracy of the entered information
 function check() {
 
     let username = document.getElementById("user");
@@ -41,10 +42,12 @@ function check() {
     }
 }
 
+//Changes color when On focus on field
 function onFocus(thing) {
     thing.style.borderColor = "#1bbe31cc";
 }
 
+//Changes color when On blur out of username field
 function onBlurUser() {
     if (check1 == true) {
         return document.getElementById("user").style.borderColor = "#ff1a00";
@@ -55,6 +58,7 @@ function onBlurUser() {
     document.getElementById("user").style.borderColor = "rgba(0, 0, 0, 0.349)";
 }
 
+//Changes color when On blur out of password field
 function onBlurPass() {
     if (check2 == true) {
         return document.getElementById("pass").style.borderColor = "#ff1a00";
@@ -64,6 +68,7 @@ function onBlurPass() {
     document.getElementById("pass").style.borderColor = "rgba(0, 0, 0, 0.349)";
 }
 
+//On click hide and show password
 function hideAndShow() {
     let view = document.getElementById("pass");
     if (view.type === "password") {

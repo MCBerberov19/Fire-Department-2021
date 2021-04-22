@@ -1,3 +1,5 @@
+//Embed google maps
+
 function initMap() {
     var location = {
         lat: 42.497681,
@@ -15,16 +17,7 @@ function initMap() {
     });
 }
 
-/*function check() {
-    let number = document.getElementById("number");
-    if (isNaN(number.value) == true) {
-        alert("Enter a valid number !");
-        number.value = '';
-    }
-
-
-}*/
-
+//Checks the accuracy of the entered information
 function check() {
     let x = document.getElementById("teams").style.borderColor;
     if ((document.getElementById("number").value == "" || isNaN(document.getElementById("number").value) == true) || document.getElementById("teams").value == '' || document.getElementById("adress").value == "") {
