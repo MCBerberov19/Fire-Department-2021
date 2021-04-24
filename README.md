@@ -18,19 +18,15 @@
  
 ## 💪🏻Team	<a name = "team"></a>
 > 1. **ASStaykova19** - **Scrum trainer**	
-   - ***Email***: [***ASStaykova19@codingburgas.bg***](mailto:ASStaykova19@codingburgas.bg)	
    - ***GitHub profile***: [***ASStaykova19***](https://github.com/ASStaykova19)	
  
 > 2. **GAVasilev19** - **Designer**	
-   - ***Email***: [***GAVasilev19@codingburgas.bg***](mailto:GAVasilev19@codingburgas.bg)	
    - ***GitHub profile***: [***GAVasilev19***](https://github.com/GAVasilev19)	
  
 > 3. **MCBerberov19** - **Developer Backend**	
-   - ***Email***: [***MCBerberov19@codingburgas.bg***](mailto:MCBerberov19@codingburgas.bg)	
    - ***GitHub profile***: [***MCBerberov19***](https://github.com/MCBerberov19)	
  
 > 4. **VNStoyanov19** - **Developer Frontend**	
-   - ***Email***: [***VNStoyanov19@codingburgas.bg***](mailto:VNStoyanov19@codingburgas.bg)	
    - ***GitHub profile***: [***VNStoyanov19***](https://github.com/VNStoyanov19)
  
  
