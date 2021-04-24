@@ -16,7 +16,7 @@
 ## 🎯 Goal <a name = "goal"></a>
 > Our **goal** is to significantly reduce incidents and, in particular, fires. Our site offers information about our cars, qualified firefighters and a page through which you can give a signal. Also you have an option with which you can choose whether you want us to send with the *firefighters* 🚒, also *police* 🚓 or *ambulance* 🚑.
  
-## 💪🏻Team	<a name = "team"></a>
+## 💪🏻 Team	<a name = "team"></a>
 > 1. **ASStaykova19** - **Scrum trainer**	
    - ***GitHub profile***: [***ASStaykova19***](https://github.com/ASStaykova19)	
  
